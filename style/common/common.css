@@ -1,0 +1,7 @@
+body{
+    background-color: #E7E7E9;
+}
+#root{
+    display: flex;
+    justify-content: center;
+}

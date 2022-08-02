@@ -1,0 +1,6 @@
+.header__background{
+    background: url('images/header_back.png') no-repeat;
+    height: 630px;
+    margin-top: 100px;
+    background-position: right bottom;
+}

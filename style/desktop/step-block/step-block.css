@@ -1,0 +1,42 @@
+.step-block{
+    width: 1200px;
+}
+
+.step-block__head{
+    font-size: 48px;
+}
+
+.step-block__list{
+    float: right;
+    width: 855px;
+    height: 147px;
+    justify-content: flex-end;
+}
+
+.step-block__step{
+    width: 1200px;
+    height: 434px;
+    margin-top: 80px;
+}
+
+.step-block__img{
+    width: 678px;
+    position: absolute;
+    right: 0;
+}
+
+.step-block__text-block{
+    width: 374px;
+}
+
+.step-block__text_mob{
+    display: none;
+}
+
+.step-block__name{
+    margin-bottom: 40px;
+}
+
+.step-block__text{
+    margin-top: 20px;
+}

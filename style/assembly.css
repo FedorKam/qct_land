@@ -1,0 +1,21 @@
+@import url('common/common.css');
+
+@import url('common/scroll-line/scroll-line.css');
+@import url('common/step-block/step-block.css');
+@import url('common/roadmap/roadmap.css');
+@import url('common/2dblock/2dblock.css');
+
+@import url('desktop/scroll-line/scroll-line.css') screen and (min-width: 1440px);
+@import url('desktop/step-block/step-block.css') screen and (min-width: 1440px);
+@import url('desktop/roadmap/roadmap.css') screen and (min-width: 1440px);
+@import url('desktop/2dblock/2dblock.css') screen and (min-width: 1440px);
+
+@import url('tablet/scroll-line/scroll-line.css') screen and (max-width: 1439px);
+@import url('tablet/step-block/step-block.css') screen and (max-width: 1439px);
+@import url('tablet/roadmap/roadmap.css') screen and (max-width: 1439px);
+@import url('tablet/2dblock/2dblock.css') screen and (max-width: 1439px);
+
+@import url('mobile/scroll-line/scroll-line.css') screen and (max-width: 1023px);
+@import url('mobile/step-block/step-block.css') screen and (max-width: 1023px);
+@import url('mobile/roadmap/roadmap.css') screen and (max-width: 1023px);
+@import url('mobile/2dblock.css/2dblock.css') screen and (max-width: 1023px);

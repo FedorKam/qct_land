@@ -1,0 +1,60 @@
+.scroll-line__item{
+    position: relative;
+    background: linear-gradient(124.69deg, #FFFFFF 21.38%, #E8EAEF 96.34%);
+    box-shadow: 0px 44px 58px rgba(17, 46, 99, 0.1);
+    border-radius: 32px;
+    display: inline-block;
+    margin-right: 30px;
+    width: 315px;
+    height: 114px;
+    padding: 45px 32.5px;
+}
+
+.scroll-line__head{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 24px;
+    color: #2C2D2E;
+    display: block;
+    width: 187px;
+    float: left;
+}
+
+.scroll-line__head_white{
+    color: #fff;
+}
+
+.scroll-line__text{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #2c2d2ea5;
+    display: block;
+    width: 203px;
+    margin-top: 18px;
+    float: left;
+}
+
+.scroll-line__text_white{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.scroll-line__icon{
+    position: absolute;
+    top: 25px;
+    height: 150px;
+}
+
+.scroll-line__item_black{
+    background: linear-gradient(111.45deg, #282828 24.52%, #131313 93.16%);
+}
+
+.scroll-line__item_blue{
+    background: linear-gradient(111.45deg, #2174FF 24.52%, #005FFF 93.16%);
+}
+
+.scroll-line__item_yellow{
+    background: linear-gradient(123.25deg, #F5C782 30.2%, #E0B371 101.68%);
+}
