@@ -1,0 +1,79 @@
+.vrblock{
+    width: 100%;
+    background: #1A1A1A;
+    overflow: hidden;
+}
+
+.vrblock__head{
+    font-family: 'Rubik';
+    font-weight: 700;
+    color: #FFFFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.vrblock__text{
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.vrblock__description{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.vrblock__text, .vrblock__description{
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vrblock__vrHead{
+    font-family: 'Rubik';
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.vrblock__vrName{
+    font-family: 'Rubik';
+    font-weight: 700;
+    color: #478BFD;
+    display: block;
+    margin: 0 auto;
+}
+
+.vrblock__img{
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    z-index: 10;
+}
+
+.vrblock__backLight{
+    background: #478BFD;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+}
+
+.vrblock_expl{
+    font-family: 'TT Norms';
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}

@@ -1,11 +1,27 @@
 body{
     background-color: #E7E7E9;
 }
+
+span{
+    letter-spacing: 0.003em;
+}
+
 #root{
     display: flex;
     justify-content: center;
 }
 
-::-webkit-scrollbar { 
+.virtualWord{
     display: none;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    background-color: #00000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #23232321;
+    border-radius: 50px;
 }

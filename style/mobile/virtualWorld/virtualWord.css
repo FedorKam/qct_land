@@ -1,0 +1,33 @@
+.virtualWord{
+    display: block;
+    width: 100%;
+    background-color: #1A1A1A;
+}
+
+.virtualWord__content{
+    width: 343px;
+    display: block;
+    margin: 20px auto 40px;
+}
+
+.virtualWord__head{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.virtualWord__text{
+    font-family: 'TT Norms';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    display: block;
+    margin-top: 40px;
+}
+
+.virtualWord__img{
+    margin-top: 20px;
+}

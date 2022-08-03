@@ -1,0 +1,39 @@
+.values__group{
+    width: 1200px;
+    height: 394px;
+}
+
+.values__head{
+    width: 561px;
+    font-size: 48px;
+}
+
+.values__text{
+    width: 550px;
+}
+
+.values__wordBlock{
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.values__word{
+    padding: 10px 29px;
+}
+
+.values__block{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 56px 50px;
+    width: 473px;
+    height: 256px;
+}
+
+.values__blockHead{
+    font-size: 36px;
+}
+
+.values__blockText{
+    width: 441px;
+}

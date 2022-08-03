@@ -12,5 +12,8 @@
 
 .roadmap__scroll{
     margin-top: 20px;
-    overflow-x: scroll;
+}
+
+.roadmap__img{
+    margin-left: 16px;
 }

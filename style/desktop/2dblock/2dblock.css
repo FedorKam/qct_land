@@ -1,0 +1,13 @@
+.dblock__head{
+    font-size: 96px;
+    text-align: center;
+    width: 100%;
+}
+
+.dblock__text{
+    width: 585px;
+}
+
+.dblock__img{
+    margin-top: 50px;
+}

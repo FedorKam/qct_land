@@ -4,18 +4,31 @@
 @import url('common/step-block/step-block.css');
 @import url('common/roadmap/roadmap.css');
 @import url('common/2dblock/2dblock.css');
+@import url('common/vrblock/vrblock.css');
+@import url('common/values/values.css');
+@import url('common/bali/bali.css');
 
 @import url('desktop/scroll-line/scroll-line.css') screen and (min-width: 1440px);
 @import url('desktop/step-block/step-block.css') screen and (min-width: 1440px);
 @import url('desktop/roadmap/roadmap.css') screen and (min-width: 1440px);
 @import url('desktop/2dblock/2dblock.css') screen and (min-width: 1440px);
+@import url('desktop/vrblock/vrblock.css') screen and (min-width: 1440px);
+@import url('desktop/values/values.css') screen and (min-width: 1440px);
+@import url('desktop/bali/bali.css') screen and (min-width: 1440px);
 
-@import url('tablet/scroll-line/scroll-line.css') screen and (max-width: 1439px);
-@import url('tablet/step-block/step-block.css') screen and (max-width: 1439px);
-@import url('tablet/roadmap/roadmap.css') screen and (max-width: 1439px);
-@import url('tablet/2dblock/2dblock.css') screen and (max-width: 1439px);
+@import url('tablet/scroll-line/scroll-line.css') screen and (max-width: 1439px) and (min-width: 1023px);
+@import url('tablet/step-block/step-block.css') screen and (max-width: 1439px) and (min-width: 1023px);
+@import url('tablet/roadmap/roadmap.css') screen and (max-width: 1439px) and (min-width: 1023px);
+@import url('tablet/2dblock/2dblock.css') screen and (max-width: 1439px) and (min-width: 1023px);
+@import url('tablet/vrblock/vrblock.css') screen and (max-width: 1439px) and (min-width: 1023px);
+@import url('tablet/values/values.css') screen and (max-width: 1439px) and (min-width: 1023px);
+@import url('tablet/bali/bali.css') screen and (max-width: 1439px) and (min-width: 1023px);
 
 @import url('mobile/scroll-line/scroll-line.css') screen and (max-width: 1023px);
 @import url('mobile/step-block/step-block.css') screen and (max-width: 1023px);
 @import url('mobile/roadmap/roadmap.css') screen and (max-width: 1023px);
-@import url('mobile/2dblock.css/2dblock.css') screen and (max-width: 1023px);
+@import url('mobile/2dblock/2dblock.css') screen and (max-width: 1023px);
+@import url('mobile/vrblock/vrblock.css') screen and (max-width: 1023px);
+@import url('mobile/values/values.css') screen and (max-width: 1023px);
+@import url('mobile/bali/bali.css') screen and (max-width: 1023px);
+@import url('mobile/virtualWorld/virtualWord.css') screen and (max-width: 1023px);

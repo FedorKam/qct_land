@@ -1,0 +1,53 @@
+.vrblock__head_mob{
+    display: none;
+}
+
+.vrblock__head{
+    width: 578px;
+    font-size: 64px;
+    margin-top: 40px;
+}
+
+.vrblock__text{
+    width: 585px;
+}
+
+.vrblock__hrLine{
+    width: 1px;
+    height: 150px;
+    background: #fff;
+    margin: 40px auto 0;
+}
+
+.vrblock__description{
+    font-size: 16px;
+    width: 671px;
+}
+
+.vrblock__vrHead{
+    margin-top: 20px;
+    font-size: 36px;
+    width: 708px;
+}
+
+.vrblock__vrName{
+    width: 869px;
+    font-size: 160px;
+}
+
+.vrblock__img{
+    width: 860px;
+    transform: translate(-50%, -33%);
+}
+
+.vrblock__backLight{
+    width: 340px;
+    height: 340px;
+    filter: blur(180px);
+    transform: translate(-50%, 10%);
+}
+
+.vrblock_expl{
+    margin-top: 305px;
+    width: 289px;
+}
