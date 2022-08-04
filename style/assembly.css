@@ -7,6 +7,8 @@
 @import url('common/vrblock/vrblock.css');
 @import url('common/values/values.css');
 @import url('common/bali/bali.css');
+@import url('common/command/command.css');
+@import url('common/tech/tech.css');
 
 @import url('desktop/scroll-line/scroll-line.css') screen and (min-width: 1440px);
 @import url('desktop/step-block/step-block.css') screen and (min-width: 1440px);
@@ -15,6 +17,8 @@
 @import url('desktop/vrblock/vrblock.css') screen and (min-width: 1440px);
 @import url('desktop/values/values.css') screen and (min-width: 1440px);
 @import url('desktop/bali/bali.css') screen and (min-width: 1440px);
+@import url('desktop/command/command.css') screen and (min-width: 1440px);
+@import url('desktop/tech/tech.css') screen and (min-width: 1440px);
 
 @import url('tablet/scroll-line/scroll-line.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/step-block/step-block.css') screen and (max-width: 1439px) and (min-width: 1023px);
@@ -23,6 +27,8 @@
 @import url('tablet/vrblock/vrblock.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/values/values.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/bali/bali.css') screen and (max-width: 1439px) and (min-width: 1023px);
+@import url('tablet/command/command.css') screen and (max-width: 1439px) and (min-width: 1023px);
+@import url('tablet/tech/tech.css') screen and (max-width: 1439px) and (min-width: 1023px);
 
 @import url('mobile/scroll-line/scroll-line.css') screen and (max-width: 1023px);
 @import url('mobile/step-block/step-block.css') screen and (max-width: 1023px);
@@ -31,4 +37,7 @@
 @import url('mobile/vrblock/vrblock.css') screen and (max-width: 1023px);
 @import url('mobile/values/values.css') screen and (max-width: 1023px);
 @import url('mobile/bali/bali.css') screen and (max-width: 1023px);
+@import url('mobile/command/command.css') screen and (max-width: 1023px);
+@import url('mobile/tech/tech.css') screen and (max-width: 1023px);
+
 @import url('mobile/virtualWorld/virtualWord.css') screen and (max-width: 1023px);

@@ -1,0 +1,108 @@
+.command__content{
+    position: relative;
+    width: 864px;
+}
+
+.command__head{
+    font-size: 48px;
+}
+
+.command__main{
+    margin-top: 40px;
+    width: 562px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.command__avatar.command__avatar_main{
+    width: 266px;
+    height: auto;
+}
+
+.command__mainCard{
+    width: 266px;
+}
+
+.command__position.command__position_main{
+    margin-top: 24px;
+    font-size: 16px;
+    position: static;
+    display: inline-block;
+}
+
+.command__name.command__name_main{
+    font-size: 24px;
+    margin-top: 6px;
+    width: 265px;
+    position: static;
+}
+
+.command__aboutText.command__aboutText_main{
+    line-height: 150%;
+    margin-top: 25px;
+    display: inline-block;
+    width: 266px;
+}
+
+.command__scrollBlock{
+    width: 266px;
+    height: 515px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+.command__scroll{
+    display: flex;
+    flex-direction: column;
+}
+
+.command__card{
+    width: 246px;
+    height: 85px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.command__card_hidden{
+    display: none;
+}
+
+.command__avatar{
+    width: 85px;
+    height: 85px;
+}
+
+.command__position{
+    position: absolute;
+    font-size: 14px;
+    top: 6px;
+    left: 97px;
+}
+
+.command__name{
+    position: absolute;
+    font-size: 24px;
+    width: 120px;
+    top: 27px;
+    left: 97px;
+}
+
+.command__eye{
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 2px;
+}
+
+.command__about{
+    display: none;
+}
+
+.command__backPopUp{
+    display: none;
+}

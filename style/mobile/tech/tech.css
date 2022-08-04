@@ -1,0 +1,36 @@
+.tech__head{
+    width: 343px;
+    font-size: 36px;
+}
+
+.tech__img{
+    display: none;
+}
+
+.tech__img_mob{
+    display: block;
+    margin: 40px auto 0;
+}
+
+.tech__block{
+    width: 343px;
+    height: 817px;
+}
+
+.tech__lineNumb_mob{
+    display: block;
+}
+
+.tech__console{
+    height: 830px;
+}
+
+.tech__consoleText_margin{
+    line-height: 28px;
+    width: 229px;
+}
+
+.tech__lineNumb{
+    height: 483px;
+    line-height: 33.5px;
+}

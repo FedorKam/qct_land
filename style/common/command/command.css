@@ -1,0 +1,58 @@
+.command{
+    width: 100%;
+    background: #1A1A1A;
+}
+
+.command__content{
+    margin: 0 auto;
+}
+
+.command__head{
+    margin-top: 20px;
+    display: block;
+    font-family: 'Rubik';
+    font-weight: 500;
+    color: #fff;
+}
+
+.command__position{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.command__name{
+    font-family: 'Rubik';
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 120%;
+}
+
+.command__aboutText{
+    font-family: 'TT Norms';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    display: block;
+}
+
+.command__aboutHead{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.command__scrollBlock::-webkit-scrollbar{
+    width: 2px;
+    height: 2px;
+    background-color: #ffffff46;
+}
+
+.command__scrollBlock::-webkit-scrollbar-thumb{
+    background-color: #478BFD;
+}

@@ -1,0 +1,71 @@
+.command__content{
+    position: relative;
+    width: 342px;
+}
+
+.command__head{
+    font-size: 36px;
+}
+
+.command__main{
+    display: none;
+}
+
+.command__scrollBlock{
+    margin: 40px 0;
+    width: 342px;
+    height: 473px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.command__scroll{
+    display: flex;
+    flex-direction: column;
+}
+
+.command__card{
+    width: 322px;
+    height: 85px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.command__card_hidden{
+    display: block;
+}
+
+.command__avatar{
+    width: 85px;
+    height: 85px;
+}
+
+.command__position{
+    position: absolute;
+    font-size: 14px;
+    top: 6px;
+    left: 97px;
+}
+
+.command__name{
+    position: absolute;
+    font-size: 20px;
+    width: 120px;
+    top: 33px;
+    left: 97px;
+}
+
+.command__eye{
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 2px;
+}
+
+.command__about{
+    display: none;
+}
+
+.command__backPopUp{
+    display: none;
+}

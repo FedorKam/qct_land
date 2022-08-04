@@ -1,0 +1,88 @@
+.tech{
+    width: 100%;
+    background: #1A1A1A;
+    overflow: hidden;
+}
+
+.tech__head{
+    display: block;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.tech__img{
+    display: block;
+    margin: 0 auto;
+}
+
+.tech__block{
+    border: 2px solid #333333;
+    box-shadow: 0px 44px 58px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    background: #161616;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.tech__tab{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #282828;
+    border-width: 2px 2px 0px 2px;
+    border-style: solid;
+    border-color: #333333;
+    border-radius: 15px 15px 0px 0px;
+    padding: 22px 28px 14px;
+    width: 187px;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+
+.tech__console{
+    width: 100%;
+    background: #282828;
+    position: relative;
+}
+
+.tech__lineNumb{
+    position: absolute;
+    width: 18px;
+    top: 30px;
+    left: 24px;
+    font-family: 'Consolas';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(186, 196, 205, 0.5);
+}
+
+.tech__consoleText{
+    font-family: 'Consolas';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tech__consoleBlockText{
+    position: absolute;
+    top: 36px;
+    left: 66px;
+}
+
+.tech__consoleText_margin{
+    display: block;
+    margin-left: 32px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.tech__consoleText_blue{
+    color: #478BFD;
+}
