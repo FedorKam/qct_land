@@ -84,6 +84,7 @@
     border-radius: 16px;
     margin-right: 30px;
     display: none;
+    flex-shrink: 0;
 }
 
 .command__link:hover+.command__about{
