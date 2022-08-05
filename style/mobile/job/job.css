@@ -1,0 +1,82 @@
+.job__content{
+    width: 343px;
+}
+
+.job__head{
+    margin-top: 9px;
+    font-size: 36px;
+    width: 343px;
+}
+
+.job__textBlue_mob{
+    display: block;
+    color: #478BFD;
+}
+
+.job__text{
+    width: 343px;
+    height: 312px;
+    margin-top: 418px;
+    position: relative;
+    z-index: 100;
+}
+
+.job__img_logo{
+    top: 137px;
+    left: 17px;
+    width: 292.27px;
+}
+
+.job__img_people{
+    top: 140px;
+    left: 0;
+    width: 321px;
+}
+
+.job__light{
+    width: 193px;
+    height: 193px;
+    filter: blur(100px);
+    top: 209px;
+    left: 69px;
+    animation: blured_light 1.5s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blured_light {
+    0%{
+        left: 169px;
+        top: 159px;
+        width: 0;
+        height: 0;
+    }
+
+    100%{
+        left: 69px;
+        top: 209px;
+        width: 193px;
+        height: 193px;
+    }
+}
+
+.job__form{
+    width: 330px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.job__scrollBlock{
+    margin-top: 70px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    z-index: 1000;
+}
+
+.job__scroll{
+    width: 1250px;
+}
+
+.job__popUp{
+    display: none;
+}

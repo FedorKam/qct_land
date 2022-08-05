@@ -1,0 +1,106 @@
+.partner{
+    width: 100%;
+    background-color: #1A1A1A;
+    background-image: url('../../../images/colosseum.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.partner__content{
+    position: relative;
+    margin: 0 auto;
+}
+
+.partner__head{
+    font-family: 'Rubik';
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.partner__text{
+    font-family: 'Rubik';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.partner__pocket{
+    padding: 22px 30px;
+    background: #1A1A1A;
+    border-radius: 32px;
+    width: 320px;
+    height: 141px;
+}
+
+.partner__pocket_white{
+    background: #F1F1F3;
+}
+
+.partner__pocketText{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    color: #dadada;
+}
+
+.partner__pocketName{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.partner__pocketNum{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    float: left;
+}
+
+.partner__pocketLogo{
+    margin-top: 14px;
+    margin-left: 9px;
+}
+
+.partner__pocketPrice{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(186, 196, 205, 0.5);
+    opacity: 0.8;
+    display: block;
+    margin-top: 16px;
+}
+
+.partner__pocketName_black, .partner__pocketNum_black{
+    color: #2C2D2E;
+}
+
+.partner__pocketName_blue, .partner__pocketNum_blue{
+    color: #478BFD;
+}
+
+.partner__pocketName_white, .partner__pocketNum_white{
+    color: #fff;
+}  
+
+.partner__pocketName_yellow, .partner__pocketNum_yellow{
+    color: #E0B371;
+}
+
+.partner__pocketLogo, .partner__pocketLogo_white{
+    fill: #fff;
+}
+
+.partner__pocketLogo_black{
+    fill: #2C2D2E;
+}
+
+.partner__pocketLogo_blue{
+    fill: #478BFD;
+}
+
+.partner__pocketLogo_yellow{
+    fill: #E0B371;
+}

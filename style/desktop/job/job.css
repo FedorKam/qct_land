@@ -1,0 +1,72 @@
+.job__content{
+    width: 1200px;
+}
+
+.job__head{
+    margin-top: 20px;
+    font-size: 48px;
+    width: 274px;
+}
+
+.job__textBlue{
+    color: #478BFD;
+}
+
+.job__text{
+    width: 277px;
+    height: 480px;
+    margin-top: 40px;
+}
+
+.job__img_logo{
+    top: 20px;
+    left: 312px;
+}
+
+.job__img_people{
+    top: 25px;
+    left: 300px;
+}
+
+.job__light{
+    width: 400px;
+    height: 400px;
+    filter: blur(100px);
+    top: 40px;
+    left: 312px;
+    animation: blured_light 1.5s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blured_light {
+    0%{
+        left: 512px;
+        top: 440px;
+        width: 0;
+        height: 0;
+    }
+
+    100%{
+        left: 312px;
+        top: 40px;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.job__form{
+    width: 381px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.job__scrollBlock{
+    margin-top: 70px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.job__scroll{
+    width: 1250px;
+}
