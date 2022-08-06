@@ -1,6 +1,8 @@
 .job{
     width: 100%;
     background: #1A1A1A;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .job__content{

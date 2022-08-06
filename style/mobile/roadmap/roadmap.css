@@ -1,10 +1,9 @@
 .roadmap{
-    width: 100%;
+    width: 343px;
 }
 
 .roadmap__head{
     font-size: 36px;
-    margin-left: 16px;
     display: block;
     width: 260px;
     word-break: break-word;
@@ -12,8 +11,4 @@
 
 .roadmap__scroll{
     margin-top: 20px;
-}
-
-.roadmap__img{
-    margin-left: 16px;
 }

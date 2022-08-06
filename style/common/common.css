@@ -6,9 +6,9 @@ span{
     letter-spacing: 0.003em;
 }
 
-#root{
-    display: flex;
-    justify-content: center;
+.back_black{
+    margin-top: -5px;
+    background-color: #1A1A1A;
 }
 
 ::-webkit-scrollbar {

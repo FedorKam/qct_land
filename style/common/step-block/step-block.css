@@ -1,5 +1,11 @@
+.steps{
+    width: 100%;
+    background: #E7E7E9;
+}
+
 .step-block{
     position: relative;
+    margin: 0 auto;
 }
 
 .step-block__step{

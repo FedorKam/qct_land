@@ -1,11 +1,11 @@
 .values{
     width: 100%;
-    background: #1A1A1A;
+    padding-top: 25px;
 }
 
 .values__group{
     position: relative;
-    margin: 20px auto 0;
+    margin: 0 auto;
 }
 
 .values__head{

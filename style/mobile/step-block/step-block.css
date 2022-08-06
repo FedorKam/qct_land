@@ -1,5 +1,6 @@
 .step-block{
-    width: calc(100% - 32px);
+    margin-top: 40px;
+    width: 343px;
     padding: 40px 16px 0px;
 }
 
@@ -40,7 +41,7 @@
 
 .step-block__step{
     width: 100%;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .step-block__img{

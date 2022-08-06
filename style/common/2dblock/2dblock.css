@@ -1,5 +1,6 @@
 .dblock{
     width: 100%;
+    margin-top: 60px;
 }
 
 .dblock__head{
@@ -23,7 +24,6 @@
 
 .dblock__img{
     width: 100%;
-    position: absolute;
 }
 
 .dblock__img_light{

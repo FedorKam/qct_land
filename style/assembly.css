@@ -1,5 +1,6 @@
 @import url('common/common.css');
 
+@import url('common/header/header.css');
 @import url('common/scroll-line/scroll-line.css');
 @import url('common/step-block/step-block.css');
 @import url('common/roadmap/roadmap.css');
@@ -15,6 +16,7 @@
 @import url('common/round/round.css');
 
 
+@import url('desktop/header/header.css') screen and (min-width: 1439px);
 @import url('desktop/scroll-line/scroll-line.css') screen and (min-width: 1439px);
 @import url('desktop/step-block/step-block.css') screen and (min-width: 1439px);
 @import url('desktop/roadmap/roadmap.css') screen and (min-width: 1439px);
@@ -29,6 +31,7 @@
 @import url('desktop/virtualWorld/virtualWorld.css') screen and (min-width: 1439px);
 @import url('desktop/round/round.css') screen and (min-width: 1439px);
 
+@import url('tablet/header/header.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/scroll-line/scroll-line.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/step-block/step-block.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/roadmap/roadmap.css') screen and (max-width: 1439px) and (min-width: 1023px);
@@ -43,6 +46,7 @@
 @import url('tablet/virtualWorld/virtualWorld.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/round/round.css') screen and (max-width: 1439px) and (min-width: 1023px);
 
+@import url('mobile/header/header.css') screen and (max-width: 1023px);
 @import url('mobile/scroll-line/scroll-line.css') screen and (max-width: 1023px);
 @import url('mobile/step-block/step-block.css') screen and (max-width: 1023px);
 @import url('mobile/roadmap/roadmap.css') screen and (max-width: 1023px);
