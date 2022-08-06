@@ -1,0 +1,83 @@
+.round{
+    width: 100%;
+    background: #1A1A1A;
+    overflow: hidden;
+}
+
+.round__content{
+    position: relative;
+    margin: 0 auto;
+}
+
+.round__group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.round__card{
+    display: inline-block;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 44px 58px rgba(17, 46, 99, 0.1);
+    border-radius: 25px;
+}
+
+.round__name{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #2D395A;
+    display: block;
+}
+
+.round__name_blue{
+    color: #005FFF;
+}
+
+.round__sum{
+    display: block;
+}
+
+.round__deskr{
+    position: absolute;
+    font-family: 'Rubik';
+    font-weight: 400;
+    color: #2D395A;
+    opacity: 0.6;
+}
+
+.round__img{
+    position: absolute;
+}
+
+.round__text{
+    position: absolute;
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 130%;
+    display: block;
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.round__text_blue{
+    color: #478BFD;
+}
+
+.round__button{
+    position: absolute;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #478BFD;
+    border-radius: 17px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}

@@ -1,0 +1,86 @@
+.partner{
+    background-image: url('../../../images/colosseum.png');
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center 20%;
+    overflow: hidden;
+}
+
+.partner__content{
+    width: 864px;
+}
+
+.partner__head{
+    margin-top: 84px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.partner__logo{
+    width: 864px;
+    margin-top: 30px;
+}
+
+.partner__text{
+    position: absolute;
+    top: 178px;
+    font-size: 20px;
+}
+
+.partner__text_left{
+    left: 0;
+}
+
+.partner__text_right{
+    right: 0;
+}
+
+.partner__token{
+    position: absolute;
+    width: 681px;
+    top: 55px;
+    left: 72px;
+    transform: rotate3d(0, 1, 0, 0deg);
+}
+
+.partner__pocket{
+    position: absolute;
+    z-index: 100;
+    width: 311px;
+    padding-right: 0;
+}
+
+.partner__pocket_black{
+    background: #282828;
+}
+
+.partner__pocket_right{
+    top: 218px;
+    right: 0;
+}
+
+.partner__pocket_left{
+    top: 294px;
+    left: 0;
+}
+
+.partner__pocket_center{
+    top: 479px;
+    left: 373px;
+}
+
+.partner__weekImg{
+    width: 586px;
+    margin: 40px auto 0;
+    display: block;
+}
+
+.partner__week{
+    font-size: 48px;
+    width: 864px;
+    margin-top: 140px;
+}
+
+.partner__week_desktop{
+    display: none;
+}

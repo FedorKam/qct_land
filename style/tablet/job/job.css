@@ -71,3 +71,7 @@
 .job__scroll{
     width: 1250px;
 }
+
+.job__button_mob{
+    display: none;
+}

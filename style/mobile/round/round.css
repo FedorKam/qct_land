@@ -1,0 +1,52 @@
+.round__content{
+    width: 343px;
+    height: 1300px;
+}
+
+.round__group{
+    flex-direction: column;
+    height: 640px;
+}
+
+.round__card{
+    width: 217px;
+    height: 136px;
+    padding: 34px 61px 30px 65px;
+}
+
+.round__sum{
+    width: 204px;
+    margin: 12px auto 0;
+}
+
+.round__deskr{
+    font-size: 14px;
+    bottom: 30px;
+}
+
+.round__deskr_left{
+    left: 61px;
+}
+
+.round__deskr_right{
+    right: 65px;
+}
+
+.round__img{
+    width: 650px;
+    bottom: -335px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-46%, -50%);
+}
+
+.round__text{
+    bottom: 340px;
+    font-size: 36px;
+}
+
+.round__button{
+    bottom: 210px;
+    padding-right: 20px;
+    padding-left: 20px;
+}

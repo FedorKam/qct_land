@@ -1,0 +1,42 @@
+.round__content{
+    width: 1200px;
+    height: 1007px;
+}
+
+.round__card{
+    width: 280px;
+    height: 176px;
+    padding: 42px 50px 40px;
+}
+
+.round__sum{
+    margin: 20px auto 0;
+}
+
+.round__deskr{
+    font-size: 16px;
+    bottom: 43px;
+}
+
+.round__deskr_left{
+    left: 50px;
+}
+
+.round__deskr_right{
+    right: 50px;
+}
+
+.round__img{
+    margin-top: -50px;
+}
+
+.round__text{
+    font-size: 48px;
+    top: 560px;
+}
+
+.round__button{
+    top: 760px;
+    padding-right: 40px;
+    padding-left: 40px;
+}

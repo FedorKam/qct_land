@@ -1,0 +1,74 @@
+.partner__content{
+    width: 343px;
+}
+
+.partner__head{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.partner__logo{
+    width: 342px;
+    margin-top: 20px;
+    margin-bottom: 58px;
+}
+
+.partner__text{
+    position: absolute;
+    top: 90px;
+    font-size: 14px;
+}
+
+.partner__text_left{
+    left: 0;
+}
+
+.partner__text_right{
+    right: 0;
+}
+
+.partner__token{
+    display: none;
+}
+
+.partner__pocket{
+    width: 313px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.partner__pocket_black{
+    background: #282828;
+}
+
+.partner__pocket_right{
+    top: 218px;
+    right: 0;
+}
+
+.partner__pocket_left{
+    top: 294px;
+    left: 0;
+}
+
+.partner__pocket_center{
+    top: 479px;
+    left: 373px;
+}
+
+.partner__weekImg{
+    width: 343px;
+    margin: 40px auto 0;
+    display: block;
+}
+
+.partner__week{
+    font-size: 36px;
+    width: 343px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.partner__week_desktop{
+    display: none;
+}

@@ -1,9 +1,6 @@
 .partner{
     width: 100%;
     background-color: #1A1A1A;
-    background-image: url('../../../images/colosseum.png');
-    background-repeat: no-repeat;
-    background-position: top center;
 }
 
 .partner__content{
@@ -27,7 +24,6 @@
     padding: 22px 30px;
     background: #1A1A1A;
     border-radius: 32px;
-    width: 320px;
     height: 141px;
 }
 
@@ -103,4 +99,17 @@
 
 .partner__pocketLogo_yellow{
     fill: #E0B371;
+}
+
+.partner__week{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    color: #fff;
+    display: inline-block;
+}
+
+.partner__week_blue{
+    color: #478BFD;
 }

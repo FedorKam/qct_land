@@ -1,0 +1,17 @@
+.virtualWorld__head{
+    font-family: 'Rubik';
+    font-weight: 500;
+    color: #FFFFFF;
+    display: block;
+}
+
+.virtualWorld__text{
+    font-family: 'TT Norms';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    display: block;
+    margin-top: 40px;
+}

@@ -1,0 +1,24 @@
+.virtualWorld__content_desktop{
+    display: block;
+    margin-top: 709px;
+}
+
+.virtualWorld_mob{
+    display: none;
+}
+
+.virtualWorld__head{
+    font-size: 48px;
+    width: 585px;
+}
+
+.virtualWorld__text{
+    width: 380px;
+}
+
+.virtualWorld__img{
+    position: absolute;
+    top: 683px;
+    right: -120px;
+    z-index: 10;
+}
