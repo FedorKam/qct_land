@@ -44,6 +44,7 @@
     border: 1px solid rgba(186, 196, 205, 0.5);
     border-radius: 11px;
     margin-left: 12px;
+    cursor: pointer;
 }
 
 .step-block__option_active{
@@ -114,10 +115,15 @@
     display: inline-block;
     background: url('../../../images/nav_arrow_left.svg') no-repeat center;
     opacity: 0.2;
+    cursor: pointer;
 }
 
 .step-block__arrow-left_active, .step-block__arrow-right_active{
     opacity: 1;
-    background: url('../../../images/nav_arrow_right.svg') no-repeat center;
+    background: url('../../../images/nav_arrow_left_light.svg') no-repeat center;
     border: 1px solid #005FFF;
+}
+
+.step-block__arrow-right{
+    transform: rotate(180deg);
 }

@@ -2,7 +2,11 @@
     padding-top: 20px;
     padding-bottom: 40px;
     width: 100%;
-    background: url('../../../images/bali_back.png') no-repeat;
+    overflow: hidden;
+}
+
+.bali__content{
+    position: relative;
 }
 
 .bali__head{
@@ -41,6 +45,10 @@
     margin-left: 8.8px;
     margin-bottom: -2.5px;
     fill: #478BFD;
+}
+
+.bali__img{
+    position: absolute;
 }
 
 .bali__forBlock{

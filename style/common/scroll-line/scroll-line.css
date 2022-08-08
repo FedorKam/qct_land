@@ -1,3 +1,7 @@
+.scroll-line::-webkit-scrollbar{
+    height: 0;
+}
+
 .scroll-line__item{
     position: relative;
     background: linear-gradient(124.69deg, #FFFFFF 21.38%, #E8EAEF 96.34%);

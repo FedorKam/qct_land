@@ -14,6 +14,7 @@
 @import url('common/partner/partner.css');
 @import url('common/virtualWorld/virtualWorld.css');
 @import url('common/round/round.css');
+@import url('common/animation/animation.css');
 
 
 @import url('desktop/header/header.css') screen and (min-width: 1439px);
@@ -30,6 +31,7 @@
 @import url('desktop/partner/partner.css') screen and (min-width: 1439px);
 @import url('desktop/virtualWorld/virtualWorld.css') screen and (min-width: 1439px);
 @import url('desktop/round/round.css') screen and (min-width: 1439px);
+@import url('desktop/animation/animation.css') screen and (min-width: 1439px);
 
 @import url('tablet/header/header.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/scroll-line/scroll-line.css') screen and (max-width: 1439px) and (min-width: 1023px);
@@ -45,6 +47,7 @@
 @import url('tablet/partner/partner.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/virtualWorld/virtualWorld.css') screen and (max-width: 1439px) and (min-width: 1023px);
 @import url('tablet/round/round.css') screen and (max-width: 1439px) and (min-width: 1023px);
+@import url('tablet/animation/animation.css') screen and (max-width: 1439px) and (min-width: 1023px);
 
 @import url('mobile/header/header.css') screen and (max-width: 1023px);
 @import url('mobile/scroll-line/scroll-line.css') screen and (max-width: 1023px);
@@ -60,3 +63,4 @@
 @import url('mobile/partner/partner.css') screen and (max-width: 1023px);
 @import url('mobile/virtualWorld/virtualWorld.css') screen and (max-width: 1023px);
 @import url('mobile/round/round.css') screen and (max-width: 1023px);
+@import url('mobile/animation/animation.css') screen and (max-width: 1023px);

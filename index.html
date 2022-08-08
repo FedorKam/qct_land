@@ -6,8 +6,18 @@
     <link href="style/reset.css" rel="stylesheet">
     <link href="style/fonts.css" rel="stylesheet">
     <link href="style/assembly.css" rel="stylesheet">
+    <script src="script/animations.js" defer></script>
+    <script src="script/script_menu.js" defer></script>
+    <script src="script/script_steps.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Создай свой продукт в метавселенной</title>
   </head>
   <body>
     <div id="root">
@@ -17,17 +27,17 @@
                 <img src="images/logo.svg" class="header__logo" />
                 <ul class="menu">
                     <li class="menu__item active"><a class="menu__link" href="#">Главная</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Твой путь</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Roadmap</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Метавселенная</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Идеология</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Недвижимость</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Команда</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#step-block">Твой путь</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#roadmap">Roadmap</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#dblock">Метавселенная</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#values">Идеология</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#bali">Недвижимость</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#command">Команда</a></li>
                     <li class="menu__arrow"><a class="menu__link" href="#"><img src="images/header_arrow_menu.svg"></a></li>
                     <ul class="menu__hide">
-                        <li class="menu__item"><a class="menu__link" href="#">Партнерство</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Достижения</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Начать с нами</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#partner">Партнерство</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#round">Достижения</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#job">Начать с нами</a></li>
                     </ul>
                 </ul>
                 <a class="menu__topButton">Купить QCT</a>
@@ -84,24 +94,24 @@
               </div>
           </div>
         </div>
-        <div class="steps">
-            <div class="step-block">
+        <div id="step-block" class="steps">
+            <div class="step-block" step-count="12">
                 <h1 class="step-block__head">12 шагов до успеха</h1>
                 <div class="step-block__list">
-                    <a href="#" class="step-block__option step-block__option_active">Запуск продукта</a>
-                    <a href="#" class="step-block__option">Воронка продаж</a>
-                    <a href="#" class="step-block__option">Конструктор лендингов</a>
-                    <a href="#" class="step-block__option">Методология продукта</a>
-                    <a href="#" class="step-block__option">Методология продаж</a>
-                    <a href="#" class="step-block__option">Конструктор тренажера</a>
-                    <a href="#" class="step-block__option">CRM-система</a>
-                    <a href="#" class="step-block__option">Аналитика и статистика</a>
-                    <a href="#" class="step-block__option">Встроенная платежная система</a>
-                    <a href="#" class="step-block__option">Сертификат NFT</a>
-                    <a href="#" class="step-block__option">Social</a>
-                    <a href="#" class="step-block__option">Биржа</a>
+                    <a step-num="1" class="step-block__option step-block__option_active">Запуск продукта</a>
+                    <a step-num="2" class="step-block__option">Воронка продаж</a>
+                    <a step-num="3" class="step-block__option">Конструктор лендингов</a>
+                    <a step-num="4" class="step-block__option">Методология продукта</a>
+                    <a step-num="5" class="step-block__option">Методология продаж</a>
+                    <a step-num="6" class="step-block__option">Конструктор тренажера</a>
+                    <a step-num="7" class="step-block__option">CRM-система</a>
+                    <a step-num="8" class="step-block__option">Аналитика и статистика</a>
+                    <a step-num="9" class="step-block__option">Встроенная платежная система</a>
+                    <a step-num="10" class="step-block__option">Сертификат NFT</a>
+                    <a step-num="11" class="step-block__option">Social</a>
+                    <a step-num="12" class="step-block__option">Биржа</a>
                 </div>
-                <div class="step-block__step step-block__step_active">
+                <div class="step-block__step step-block__step_active" step-num="1">
                     <div class="step-block__text-block">
                         <h2 class="step-block__name">Запуск продукта</h2>
                         <span class="step-block__text">Настройте в один клик интуитивно понятно без технических специалистов рекламную кампанию в Яндексе, Вконтакте, в Instagram, в Youtube, в Google. Весь борт управления на одном экране.</span>
@@ -110,12 +120,108 @@
                     </div>
                     <img src="images/step_1.png" class="step-block__img" />
                 </div>
-                <div class="step-block__step">
+                <div class="step-block__step" step-num="2">
                     <div class="step-block__text-block">
-                        <h2 class="step-block__name"></h2>
-                        <span class="step-block__text"></span>
+                        <h2 class="step-block__name">Воронка продаж</h2>
+                        <span class="step-block__text">Готовые шаблоны и гибкий конструктор по созданию чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>  
+                        <span class="step-block__text">Коммуницируйте со своей аудиторией через eMail, смс, автодозвоны. Проводите вебинары и понимайте динамику вовлечения аудитории в реальном времени за счет автоматических подсказок искусственного интеллекта.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
                     </div>
                     <img src="images/step_2.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="3">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">Конструктор лендингов</h2>
+                        <span class="step-block__text">Собирайте свою продающую страницу просто, по кирпичикам, основываясь на своей фантазии или пользуйтесь более чем 100 готовыми шаблонами, которые уже сейчас приносят вашим коллегам высокие конверсии в заявки.</span>
+                        <span class="step-block__text"> Создавайте и загружайте свои шаблоны, которые по партнерской программе будут вам ежедневно приносить дополнительный доход.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_3.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="4">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">Методология продукта</h2>
+                        <span class="step-block__text">Вы можете создавать свои обучающие продукты без методолога с помощью нашего методологического конструктора в котором будут собраны большое количество примеров, а пошаговая структура проведет вас от “У меня нет своего курса, я не имею педагогического образования” до “Я имею лучший курс в своей жизни, который способен конкурировать даже с топовыми игроками рынка”.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_4.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="5">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">Методология продаж</h2>
+                        <span class="step-block__text">В продажах нет ничего сложного, если вы встраиваете на каждом этапе продажу своего продукта.</span>
+                        <span class="step-block__text">Наш конструктор методологии продаж поможет составить вам цепочку писем, сообщений, речевых модулей, которые помогут вашему клиенту приобрести дорогой продукт с большим чеком.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_5.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="6">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">Конструктор тренажера</h2>
+                        <span class="step-block__text">Если ваш ученик не мог понять материал из-за этого не завершал обучение, то теперь все иначе.</span>
+                        <span class="step-block__text">Тренажер будет проверять человека автоматически в конце урока, задавая ему вопросы и возвращать его на непонятную ему тему. На ту секунду видео, где вы говорили об этом.</span>
+                        <span class="step-block__text">За счет нашего тренажера LTV ваших клиентов значительно увеличивается, что позволит вам продать вашу линейку продуктов на больший чек.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_6.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="7">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">CRM-система</h2>
+                        <span class="step-block__text">Заявки из разных источников попадают сразу в CRM-систему, из которой вы или ваш менеджер сможет сразу ответить клиенту или назначить звонок.</span>
+                        <span class="step-block__text">Привяжите в 1 клик все ваши мессенджеры, что бы ни одно сообщение не было упущено.</span>
+                        <span class="step-block__text">Звоните своим клиентам из CRM-системы на WhatsApp, telegram, Viber или на мобильный телефон через встроенную IP телефонию в любой уголок мира.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_7.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="8">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">Аналитика и статистика</h2>
+                        <span class="step-block__text">Хотите знать какой рекламный креатив или stories в Instagram принес вам максимальное кол-во продаж?</span>
+                        <span class="step-block__text">Может вы хотите знать характеристики своих лучших учеников.<br/>Выявить фразы в продающем вебинаре, которые принесли вам дополнительные оплаты.</span>
+                        <span class="step-block__text">Все это с нашими алгоритмами сбора статистики и аналитики.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_8.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="9">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">Встроенная платежная система</h2>
+                        <span class="step-block__text">Принимать платежи и оплачивать из любого уголка мира с пластиковых карт, онлайн кошельков и через криптовалюты теперь будет легко и просто для вас и ваших клиентов в нашей платежной системе.</span>
+                        <span class="step-block__text">Поддержка карт Европы, Америки, СНГ, Азии и РФ.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_9.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="10">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">Сертификат NFT и технология Learn to Earn</h2>
+                        <span class="step-block__text">Создавайте свой уникальный продукт и закрепляйте за ним авторское право с помощью NFT сертификата всего за 5 минут.</span>
+                        <span class="step-block__text">С помощью технологии Learn to Earn (обучайся и зарабатывай), ваши ученики проходят обучение и зарабатывают, вовлекаясь в ваш продукт еще глубже. Проходя сертификацию они получают вознаграждение, подтверждая этим свою компетентность и выработку навыков.</span>
+                        <span class="step-block__text">Сертификат NFT определяет уровень вашего ученика - специалиста.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_10.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="11">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">Social</h2>
+                        <span class="step-block__text">Общайтесь внутри платформы без ограничений. Создавайте чаты и обменивайтесь мультимедиа. Давайте мини задания и контролируйте их выполнение.</span>
+                        <span class="step-block__text">Создавайте условия под каждого человека, под группу или для всех людей в целом. Теперь они вам не смогут написать пока не выполнят задания от вас.</span>
+                        <span class="step-block__text">Также вы можете создавать свое собственное комьюнити переходящее в метавселенную.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_11.png" class="step-block__img" />
+                </div>
+                <div class="step-block__step" step-num="12">
+                    <div class="step-block__text-block">
+                        <h2 class="step-block__name">Биржа</h2>
+                        <span class="step-block__text">Пользуйтесь большой базой экспертов, специалистов, потенциальных партнеров, интересных проектов, инвесторов и находите только сертифицированных в NFT людей для своих целей.</span>
+                        <span class="step-block__text">Размещайте своих учеников на нашей бирже и получайте % с их успешно выполненных заказов, тем самым являясь гарантом их качества.</span>
+                        <span class="step-block__text step-block__text_mob">Интуитивно понятное создание чат-ботов для высоко конверсионной доходимости до вашего продукта в: Telegram, Вконтакте, WhatsApp, Instagram, Viber. Бот общается с вашими клиентами за вас и отвечает на все вопросы, вам же остается принимать оплаты.</span>
+                    </div>
+                    <img src="images/step_12.png" class="step-block__img" />
                 </div>
                 <div class="step-block__nav">
                     <div class="step-block__nav-number">
@@ -128,37 +234,43 @@
                 </div>
             </div>
         </div>
-        <div class="roadmap">
+        <div id="roadmap" class="roadmap">
             <h2 class="roadmap__head">Road-Map закрытие инвестиционных раундов</h2>
             <div class="roadmap__scroll">
                 <img class="roadmap__img" src="images/roadmap.svg">
             </div>
         </div>
-        <div class="dblock">
+        <div id="dblock" class="dblock">
             <h2 class="dblock__head">Переходи из 2D...</h2>
             <span class="dblock__text">2D онлайн обучение, это алый океан, где один курс похож на другой, 
               а студенты получают вместо навыков - знания, которые складируются 
               на полочках их мозга не давая ни успешных кейсов вам, 
               ни результатов им самим. Но выход есть!</span>
-            <img src="images/2dblock.png" class="dblock__img"/>
             <img src="images/2dblock_hover.png" class="dblock__img dblock__img_light"/>
+            <img src="images/2dblock.png" class="dblock__img"/>
         </div>
         <div class="back_black">
-            <div class="vrblock">
+            <div id="vrblock" class="vrblock">
                 <h2 class="vrblock__head">Погружение<br/>в метавселенную</h2>
                 <h2 class="vrblock__head vrblock__head_mob">В метавселенную</h2>
                 <span class="vrblock__text">Создавайте свои продукты в метавселенной, в которой за счет полного погружения и игровых механик обучения у ваших студентов многократно возрастает способность усвоить весь материал.<br/>За счет новизны этого рынка вы будете первыми, кто возглавит свое направление в этом голубом океане.</span>
                 <div class="vrblock__hrLine"></div>
-                <span class="vrblock__description">Предоставим обородувание - При покупке вашего продукта ваши ученики получают VR очки в подарок и в один клик погружаются в метавселенную, личный кабинет, обучающую платформу</span>
-                <h3 class="vrblock__vrHead">Со встроенным программным обеспечением в</h3>
-                <h1 class="vrblock__vrName">VR ОЧКАХ</h1>
-                <div class="vrblock__imgBlock">
-                    <img src="images/vr_gl.png" class="vrblock__img">
+                <div class="animation">
+                    <div class="animation__top">
+                        <span class="vrblock__description">Предоставим обородувание - При покупке вашего продукта ваши ученики получают VR очки в подарок и в один клик погружаются в метавселенную, личный кабинет, обучающую платформу</span>
+                        <h3 class="vrblock__vrHead">Со встроенным программным обеспечением в</h3>
+                        <h1 class="vrblock__vrName">VR ОЧКАХ</h1>
+                    </div>
+                    <div class="animation__bottom">
+                        <div class="vrblock__imgBlock">
+                            <img src="images/vr_gl.png" class="vrblock__img">
+                        </div>
+                        <div class="vrblock__backLight"></div>
+                        <span class="vrblock_expl">Поставка очков планируется 11.12.2024</span>
+                    </div>
                 </div>
-                <div class="vrblock__backLight"></div>
-                <span class="vrblock_expl">Поставка очков планируется 11.12.2024</span>
             </div>
-            <div class="values">
+            <div id="values" class="values">
                 <div class="values__group">
                     <h2 class="values__head">Наши ценности<br/>и идеология компании</h2>
                     <span class="values__text">Рздвигай  границы возможного. Через очки мы хотим раздвинуть границы для человека, чтобы он мог спокойно погрузиться в метавселенную вне зависимости от его местонахождения. Создать и внедрить на мировом уровне инновационную технологию и среду для</span>
@@ -172,12 +284,13 @@
                     </div>
                 </div>
             </div>
-            <div class="bali">
+            <div id="bali" class="bali">
                 <div class="bali__content">
                     <h2 class="bali__head">Комьюнити на Бали и в <i class="bali__head_blue">метавселенной</i></h2>
                     <h2 class="bali__head bali__head_mob">Недвижимость<br/>на Бали и<br/>в метавселенной</h2>
                     <span class="bali__text">Вы жаждите приключений и хотите найти свое место в этом необъятном мире? Мы создали для вас прекрасное пространство которое одновременно находится в реальном и виртуальном мире. Это сосредоточие творческих личностей, которые каждый день совершенствуют себя и свои навыки, проходя 4 квадранта денежного богатства. Здесь каждый может найти себе партнеров по бизнесу, клиентов, заказчиков, друзей или просто единомышленников. Пространство полностью располагает к дружескому и деловому общению.</span>
                     <a class="bali__plan">Скачать план <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.7398 2.05999L11.7798 7.09999H0.799805V8.89999H11.7798L6.7398 13.94L7.9998 15.2L15.1998 7.99999L7.9998 0.799988L6.7398 2.05999Z"/></svg></a>
+                    <img src="images/bali_back.png" class="bali__img">
                     <div class="bali__forBlock">
                         <div class="bali__nav">
                             <a href="#" class="bali__arrow bali__arrow_left"><svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.72369 10.0973C6.81128 10.0114 6.88077 9.9093 6.92818 9.79694C6.9756 9.68459 7 9.56414 7 9.4425C7 9.32086 6.9756 9.20042 6.92818 9.08806C6.88077 8.97571 6.81128 8.87365 6.72369 8.78773L3.05782 5.18412L6.72369 1.58052C6.90035 1.40686 6.9996 1.17133 6.9996 0.925743C6.9996 0.680154 6.90035 0.444621 6.72369 0.270964C6.54704 0.0973053 6.30743 -0.000252724 6.0576 -0.000252724C5.80777 -0.000252724 5.56817 0.0973053 5.39151 0.270964L1.05481 4.53399C0.96722 4.61991 0.897732 4.72197 0.850319 4.83433C0.802907 4.94668 0.778503 5.06713 0.778503 5.18877C0.778503 5.31041 0.802907 5.43085 0.850319 5.54321C0.897732 5.65556 0.96722 5.75762 1.05481 5.84354L5.39151 10.1066C5.75054 10.4595 6.35522 10.4595 6.72369 10.0973Z" fill="white"/></svg></a>
@@ -215,7 +328,7 @@
                     <img src="images/virualW.png" class="virtualWorld__img"/>
                 </div>
             </div>
-            <div class="command">
+            <div id="command" class="command">
                 <div class="command__content">
                     <h2 class="command__head">Наша команда</h2>
                     <div class="command__main">
@@ -285,18 +398,6 @@
                             <div class="command__about">
                                 <span class="command__aboutHead">Обо мне</span>
                                 <span class="command__aboutText">Решит нерешаемую проблему. Найдет выход из безвыходной ситуации. Донесёт сложное простыми словами.</span>
-                            </div>
-                            <div class="command__link">
-                                <div class="command__card">
-                                    <img src="images/avatar_6.png" class="command__avatar" />
-                                    <span class="command__position">Design</span>
-                                    <h5 class="command__name">Артем Жуков</h5>
-                                    <a class="command__eye"><img src="images/eye.svg"/></a>
-                                </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Создаю описания уроков и структурирую домашние задания для участников программ. Готовлю методические материалы, презентации и другие вспомогательные материалы для учеников. Оформляю и выкладываю уроки и дополнительные материалы на обучающую платформу. Подготавливаю и отправляю участникам сертификаты и дипломы, участвую в организации выпускных.</span>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -372,18 +473,6 @@
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
-                                    <img src="images/avatar_13.png" class="command__avatar" />
-                                    <span class="command__position">Backend</span>
-                                    <h5 class="command__name">Алексей Андреев</h5>
-                                    <a class="command__eye"><img src="images/eye.svg"/></a>
-                                </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Служил в IT войсках. Закалил свой характер под палящими лучами горячего кода. Найдет решение там, где другие сдадутся.</span>
-                            </div>
-                            <div class="command__link">
-                                <div class="command__card">
                                     <img src="images/avatar_14.png" class="command__avatar" />
                                     <span class="command__position">Служба заботы</span>
                                     <h5 class="command__name">Мария Маклакова</h5>
@@ -420,7 +509,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tech">
+            <div id="tech" class="tech">
                 <h2 class="tech__head">Технологии,<br/>которые мы используем</h2>
                 <img src="images/tech_1.png" class="tech__img"/>
                 <img src="images/tech_1_mob.png" class="tech__img tech__img_mob"/>
@@ -438,7 +527,7 @@
                     </div>
                 </div>
             </div>
-            <div class="job">
+            <div id="job" class="job">
                 <div class="job__content">
                     <h2 class="job__head">Нам <i class="job__textBlue">нужны</i> <i class="job__textBlue_mob">в команду</i></h2>
                     <span class="job__text">Вы жаждите приключений и хотите найти свое место в этом необъятном мире?<br/>Мы создали для вас прекрасное пространство которое одновременно находится в реальном и виртуальном мире. Это сосредоточие творческих личностей, которые каждый день совершенствуют себя и свои навыки, проходя 4 квадранта денежного богатства. Здесь каждый может найти себе партнеров по бизнесу, клиентов, заказчиков, друзей или просто единомышленников. Пространство полностью располагает к дружескому и деловому общению.</span>
@@ -490,7 +579,7 @@
                     <a class="job__button job__button_mob"><img src="images/form_button.svg" class="job__fromButtonImg">Хочу в команду</a>
                 </div>
             </div>
-            <div class="partner">
+            <div id="partner" class="partner">
                 <div class="partner__content">
                     <h5 class="partner__head">БУДЬ ОДНИМ ИЗ ПЕРВЫХ ПАРТНЕРОВ</h5>
                     <img src="images/colosseum_logo.svg" class="partner__logo"/>
@@ -542,7 +631,7 @@
                     <img src="images/colesseum_sum.png" class="partner__weekImg"/>
                 </div>
             </div>
-            <div class="round">
+            <div id="round" class="round">
                 <div class="round__content">
                     <div class="round__group">
                         <div class="round__card">

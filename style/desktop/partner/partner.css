@@ -36,7 +36,18 @@
     position: absolute;
     top: 67px;
     left: 200px;
-    transform: rotate3d(0, 1, 0, 0deg);
+    animation: rotateToken 2s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rotateToken {
+    0%{
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+
+    100%{
+        transform: rotate3d(0, 1, 0, 30deg);
+    }
 }
 
 .partner__pocket{

@@ -7,8 +7,9 @@ span{
 }
 
 .back_black{
-    margin-top: -5px;
+    margin-top: -55px;
     background-color: #1A1A1A;
+    padding-top: 50px;
 }
 
 ::-webkit-scrollbar {

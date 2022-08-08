@@ -10,7 +10,6 @@
 }
 
 .roadmap__scroll{
-    width: 100%;
     overflow-y: hidden;
     overflow-x: scroll;
 }

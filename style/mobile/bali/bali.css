@@ -1,6 +1,4 @@
 .bali{
-    background-position: center 66%;
-    background-size: 343px;
     margin-top: -45px;
     padding-top: 60px;
 }
@@ -19,6 +17,12 @@
     display: block;
     font-size: 36px;
     width: 343px;
+}
+
+.bali__img{
+    width: 343px;
+    top: 548px;
+    right: 0;
 }
 
 .bali__text{

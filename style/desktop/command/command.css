@@ -87,17 +87,31 @@
     flex-shrink: 0;
 }
 
+.command__about:hover{
+    display: block;
+}
+
+.command__about:hover{
+    display: block;
+}
+
 .command__link:hover+.command__about{
     display: block;
     animation: appear 0.2s linear;
 }
 
+.command__link:hover .command__name{
+    color: #478BFD;
+}
+
 @keyframes appear{
     0% {
+        margin-right: 0px;
         opacity: 0;
         width: 0;
     }
     100% {
+        margin-right: 100px;
         opacity: 1;
         width: 350px;
     }
