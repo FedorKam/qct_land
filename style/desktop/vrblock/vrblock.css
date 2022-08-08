@@ -43,7 +43,7 @@
     width: 340px;
     height: 340px;
     filter: blur(200px);
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 100%);
 }
 
 .vrblock_expl{
