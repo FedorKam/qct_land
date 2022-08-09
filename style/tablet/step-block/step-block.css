@@ -1,3 +1,7 @@
+.step-block__listArrow{
+    display: none;
+}
+
 .step-block{
     margin-top: 80px;
     width: 884px;

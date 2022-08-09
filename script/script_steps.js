@@ -9,10 +9,10 @@ options.forEach(item => {
     })
 })
 
-let arrow_left = document.querySelector('.step-block__arrow-left');
-let arrow_right = document.querySelector('.step-block__arrow-right');
+let step_arrow_left = document.querySelector('.step-block__arrow-left');
+let step_arrow_right = document.querySelector('.step-block__arrow-right');
 
-arrow_right.addEventListener('click', event => {
+step_arrow_right.addEventListener('click', event => {
     let count_steps = parseInt(document.querySelector('.step-block').getAttribute('step-count'));
     let num_step = parseInt(document.querySelector('.step-block__step_active').getAttribute('step-num'));
 
@@ -21,8 +21,7 @@ arrow_right.addEventListener('click', event => {
     }
 });
 
-arrow_left.addEventListener('click', event => {
-    let count_steps = parseInt(document.querySelector('.step-block').getAttribute('step-count'));
+step_arrow_left.addEventListener('click', event => {
     let num_step = parseInt(document.querySelector('.step-block__step_active').getAttribute('step-num'));
 
     if(num_step != 1){
@@ -54,18 +53,18 @@ function changeActiveArrows(numb){
     let count_steps = parseInt(document.querySelector('.step-block').getAttribute('step-count'));
 
     if(count_steps == numb){
-        arrow_right.classList.remove('step-block__arrow-right_active');
+        step_arrow_right.classList.remove('step-block__arrow-right_active');
     }
     else
     {
-        arrow_right.classList.add('step-block__arrow-right_active');
+        step_arrow_right.classList.add('step-block__arrow-right_active');
     }
 
     if(numb == 1){
-        arrow_left.classList.remove('step-block__arrow-left_active');
+        step_arrow_left.classList.remove('step-block__arrow-left_active');
     }
     else
     {
-        arrow_left.classList.add('step-block__arrow-left_active');
+        step_arrow_left.classList.add('step-block__arrow-left_active');
     }
 }

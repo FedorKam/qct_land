@@ -41,3 +41,7 @@
 .step-block__text{
     margin-top: 20px;
 }
+
+.step-block__listArrow{
+    display: none;
+}

@@ -79,29 +79,24 @@
 .command__about{
     padding: 30px;
     height: 240px;
-    width: 350px;
     background: linear-gradient(270deg, #282828 0%, rgba(26, 26, 26, 0) 87.18%);
     border-radius: 16px;
-    margin-right: 30px;
-    display: none;
     flex-shrink: 0;
-}
-
-.command__about:hover{
-    display: block;
-}
-
-.command__about:hover{
-    display: block;
-}
-
-.command__link:hover+.command__about{
-    display: block;
-    animation: appear 0.2s linear;
+    display: none;
 }
 
 .command__link:hover .command__name{
     color: #478BFD;
+}
+
+.command__link:hover .command__about{
+    display: block;
+    animation: appear 0.2s linear forwards;
+}
+
+.command__link_unhovered .command__about{
+    display: block;
+    animation: disappear 0.4s linear forwards;
 }
 
 @keyframes appear{
@@ -111,18 +106,33 @@
         width: 0;
     }
     100% {
-        margin-right: 100px;
+        margin-right: 30px;
         opacity: 1;
         width: 350px;
     }
 }
 
+@keyframes disappear{
+    0% {
+        margin-right: 30px;
+        opacity: 1;
+        width: 350px;
+    }
+    100% {
+        margin-right: 0px;
+        opacity: 0;
+        width: 0;
+        display: none;
+    }
+}
+
 .command__aboutText{
+    width: 350px;
     margin-top: 8px;
 }
 
 .command__link{
-    display: block;
+    display: flex;
 }
 
 .command__backPopUp{

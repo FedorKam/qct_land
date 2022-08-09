@@ -9,6 +9,8 @@
     <script src="script/animations.js" defer></script>
     <script src="script/script_menu.js" defer></script>
     <script src="script/script_steps.js" defer></script>
+    <script src="script/script_bali.js" defer></script>
+    <script src="script/script_command.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
@@ -22,6 +24,18 @@
   <body>
     <div id="root">
         <div class="header__background"></div>
+        <ul class="menu menu_mob menu_showed">
+            <a class="menu__link active" href="#"><li class="menu__item">Главная</li></a>
+           <a class="menu__link" href="#step-block"><li class="menu__item">Твой путь</li></a>
+           <a class="menu__link" href="#roadmap"><li class="menu__item">Roadmap</li></a>
+           <a class="menu__link" href="#dblock"><li class="menu__item">Метавселенная</li></a>
+           <a class="menu__link" href="#values"><li class="menu__item">Идеология</li></a>
+           <a class="menu__link" href="#bali"><li class="menu__item">Недвижимость</li></a>
+           <a class="menu__link" href="#command"><li class="menu__item">Команда</li></a>
+           <a class="menu__link" href="#partner"><li class="menu__item">Партнерство</li></a>
+           <a class="menu__link" href="#round"><li class="menu__item">Достижения</li></a>
+           <a class="menu__link" href="#job"><li class="menu__item">Начать с нами</li></a>
+        </ul>
         <header class="header">
             <div class="header__top-line">
                 <img src="images/logo.svg" class="header__logo" />
@@ -41,7 +55,7 @@
                     </ul>
                 </ul>
                 <a class="menu__topButton">Купить QCT</a>
-                <a class="menu__button">
+                <a class="menu__button menu__button_close">
                     <div class="menu__line"></div>
                     <div class="menu__line"></div>
                     <div class="menu__line"></div>
@@ -111,6 +125,7 @@
                     <a step-num="11" class="step-block__option">Social</a>
                     <a step-num="12" class="step-block__option">Биржа</a>
                 </div>
+                <a class="step-block__listArrow"><img src="images/header_arrow_menu.svg"/></a>
                 <div class="step-block__step step-block__step_active" step-num="1">
                     <div class="step-block__text-block">
                         <h2 class="step-block__name">Запуск продукта</h2>
@@ -289,30 +304,30 @@
                     <h2 class="bali__head">Комьюнити на Бали и в <i class="bali__head_blue">метавселенной</i></h2>
                     <h2 class="bali__head bali__head_mob">Недвижимость<br/>на Бали и<br/>в метавселенной</h2>
                     <span class="bali__text">Вы жаждите приключений и хотите найти свое место в этом необъятном мире? Мы создали для вас прекрасное пространство которое одновременно находится в реальном и виртуальном мире. Это сосредоточие творческих личностей, которые каждый день совершенствуют себя и свои навыки, проходя 4 квадранта денежного богатства. Здесь каждый может найти себе партнеров по бизнесу, клиентов, заказчиков, друзей или просто единомышленников. Пространство полностью располагает к дружескому и деловому общению.</span>
-                    <a class="bali__plan">Скачать план <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.7398 2.05999L11.7798 7.09999H0.799805V8.89999H11.7798L6.7398 13.94L7.9998 15.2L15.1998 7.99999L7.9998 0.799988L6.7398 2.05999Z"/></svg></a>
+                    <a href="#" class="bali__plan">Скачать план <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.7398 2.05999L11.7798 7.09999H0.799805V8.89999H11.7798L6.7398 13.94L7.9998 15.2L15.1998 7.99999L7.9998 0.799988L6.7398 2.05999Z"/></svg></a>
                     <img src="images/bali_back.png" class="bali__img">
                     <div class="bali__forBlock">
                         <div class="bali__nav">
-                            <a href="#" class="bali__arrow bali__arrow_left"><svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.72369 10.0973C6.81128 10.0114 6.88077 9.9093 6.92818 9.79694C6.9756 9.68459 7 9.56414 7 9.4425C7 9.32086 6.9756 9.20042 6.92818 9.08806C6.88077 8.97571 6.81128 8.87365 6.72369 8.78773L3.05782 5.18412L6.72369 1.58052C6.90035 1.40686 6.9996 1.17133 6.9996 0.925743C6.9996 0.680154 6.90035 0.444621 6.72369 0.270964C6.54704 0.0973053 6.30743 -0.000252724 6.0576 -0.000252724C5.80777 -0.000252724 5.56817 0.0973053 5.39151 0.270964L1.05481 4.53399C0.96722 4.61991 0.897732 4.72197 0.850319 4.83433C0.802907 4.94668 0.778503 5.06713 0.778503 5.18877C0.778503 5.31041 0.802907 5.43085 0.850319 5.54321C0.897732 5.65556 0.96722 5.75762 1.05481 5.84354L5.39151 10.1066C5.75054 10.4595 6.35522 10.4595 6.72369 10.0973Z" fill="white"/></svg></a>
-                            <a href="#" class="bali__arrow bali__arrow_rigth"><svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.276306 10.0973C0.188718 10.0114 0.119229 9.9093 0.0718169 9.79694C0.0244047 9.68459 0 9.56414 0 9.4425C0 9.32086 0.0244047 9.20042 0.0718169 9.08806C0.119229 8.97571 0.188718 8.87365 0.276306 8.78773L3.94218 5.18412L0.276306 1.58052C0.0996464 1.40686 0.000400064 1.17133 0.000400064 0.925743C0.000400064 0.680154 0.0996464 0.444621 0.276306 0.270964C0.452965 0.0973053 0.692566 -0.000252724 0.9424 -0.000252724C1.19223 -0.000252724 1.43183 0.0973053 1.60849 0.270964L5.94519 4.53399C6.03278 4.61991 6.10227 4.72197 6.14968 4.83433C6.19709 4.94668 6.2215 5.06713 6.2215 5.18877C6.2215 5.31041 6.19709 5.43085 6.14968 5.54321C6.10227 5.65556 6.03278 5.75762 5.94519 5.84354L1.60849 10.1066C1.24946 10.4595 0.644783 10.4595 0.276306 10.0973Z" fill="white"/></svg></a>
+                            <a class="bali__arrow bali__arrow_left"><svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.72369 10.0973C6.81128 10.0114 6.88077 9.9093 6.92818 9.79694C6.9756 9.68459 7 9.56414 7 9.4425C7 9.32086 6.9756 9.20042 6.92818 9.08806C6.88077 8.97571 6.81128 8.87365 6.72369 8.78773L3.05782 5.18412L6.72369 1.58052C6.90035 1.40686 6.9996 1.17133 6.9996 0.925743C6.9996 0.680154 6.90035 0.444621 6.72369 0.270964C6.54704 0.0973053 6.30743 -0.000252724 6.0576 -0.000252724C5.80777 -0.000252724 5.56817 0.0973053 5.39151 0.270964L1.05481 4.53399C0.96722 4.61991 0.897732 4.72197 0.850319 4.83433C0.802907 4.94668 0.778503 5.06713 0.778503 5.18877C0.778503 5.31041 0.802907 5.43085 0.850319 5.54321C0.897732 5.65556 0.96722 5.75762 1.05481 5.84354L5.39151 10.1066C5.75054 10.4595 6.35522 10.4595 6.72369 10.0973Z" fill="white"/></svg></a>
+                            <a class="bali__arrow bali__arrow_right"><svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.276306 10.0973C0.188718 10.0114 0.119229 9.9093 0.0718169 9.79694C0.0244047 9.68459 0 9.56414 0 9.4425C0 9.32086 0.0244047 9.20042 0.0718169 9.08806C0.119229 8.97571 0.188718 8.87365 0.276306 8.78773L3.94218 5.18412L0.276306 1.58052C0.0996464 1.40686 0.000400064 1.17133 0.000400064 0.925743C0.000400064 0.680154 0.0996464 0.444621 0.276306 0.270964C0.452965 0.0973053 0.692566 -0.000252724 0.9424 -0.000252724C1.19223 -0.000252724 1.43183 0.0973053 1.60849 0.270964L5.94519 4.53399C6.03278 4.61991 6.10227 4.72197 6.14968 4.83433C6.19709 4.94668 6.2215 5.06713 6.2215 5.18877C6.2215 5.31041 6.19709 5.43085 6.14968 5.54321C6.10227 5.65556 6.03278 5.75762 5.94519 5.84354L1.60849 10.1066C1.24946 10.4595 0.644783 10.4595 0.276306 10.0973Z" fill="white"/></svg></a>
                         </div>
-                        <div class="bali__cardBlock">
-                            <div class="bali__card bali__cardName_active">
+                        <div class="bali__cardBlock" card-count="4">
+                            <div class="bali__card bali__card_active" card-num="1">
                                 <h4 class="bali__cardName">Для творческих</h4>
                                 <img src="images/bali_1.svg" class="bali__cardIcon" />
                                 <span class="bali__cardText">Фрилансеры работающие удаленно и сотрудники крупных компаний</span>
                             </div>
-                            <div class="bali__card">
+                            <div class="bali__card" card-num="2">
                                 <h4 class="bali__cardName">Для духовных</h4>
                                 <img src="images/bali_2.svg" class="bali__cardIcon" />
                                 <span class="bali__cardText">Коучи, наставники, психологи и духовные практики</span>
                             </div>
-                            <div class="bali__card">
+                            <div class="bali__card" card-num="3">
                                 <h4 class="bali__cardName">Для IT-шников</h4>
                                 <img src="images/bali_3.svg" class="bali__cardIcon" />
                                 <span class="bali__cardText">Территория повышения квалификации и комьюнити для владельцев IT проектов</span>
                             </div>
-                            <div class="bali__card">
+                            <div class="bali__card" card-num="4">
                                 <h4 class="bali__cardName">Для инвесторов</h4>
                                 <img src="images/bali_4.svg" class="bali__cardIcon" />
                                 <span class="bali__cardText">Криптопроектов, NFT, metaverse, реальной недвижимости, офлайн бизнесов и т.д.</span>
@@ -370,10 +385,10 @@
                                     <h5 class="command__name">Олег Куценко</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">У него все под контролем. Даже контроль под его контролем. Нет того, что он не знает. 100 процессов одновременно - не проблема.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">У него все под контролем. Даже контроль под его контролем. Нет того, что он не знает. 100 процессов одновременно - не проблема.</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -382,10 +397,10 @@
                                     <h5 class="command__name">Дана Сераева</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Совершает продажи из и во имя любви. Мать 5-ых детей. Максимально развита 1 и 4 чакра. Лечит взглядом, продает сердцем.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Совершает продажи из и во имя любви. Мать 5-ых детей. Максимально развита 1 и 4 чакра. Лечит взглядом, продает сердцем.</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -394,10 +409,10 @@
                                     <h5 class="command__name">Евгений Кудрин</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Решит нерешаемую проблему. Найдет выход из безвыходной ситуации. Донесёт сложное простыми словами.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Решит нерешаемую проблему. Найдет выход из безвыходной ситуации. Донесёт сложное простыми словами.</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -406,10 +421,10 @@
                                     <h5 class="command__name">Илья Мишенков</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Продает через дизайн человека. Совершил сделку на 400 млн. руб. Имеет чёрный пояс по продажам. Знает секретный ключ к идеальным переговорам</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Продает через дизайн человека. Совершил сделку на 400 млн. руб. Имеет чёрный пояс по продажам. Знает секретный ключ к идеальным переговорам</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -418,10 +433,10 @@
                                     <h5 class="command__name">Соня Апакина</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Разрабатывает концептуальные идеи по объемно-планировочным решениям: пространства, города и зданий. Ежечасно следит за тенденциями и трендами метавселенных. Спец по составлению ТЗ.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Разрабатывает концептуальные идеи по объемно-планировочным решениям: пространства, города и зданий. Ежечасно следит за тенденциями и трендами метавселенных. Спец по составлению ТЗ.</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -430,10 +445,10 @@
                                     <h5 class="command__name">Дмитрий Науменко</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Помогает делать учебный процесс легким и эффективным. Структурирует задания, методические материалы и презентации для участников обучающих программ.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Помогает делать учебный процесс легким и эффективным. Структурирует задания, методические материалы и презентации для участников обучающих программ.</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -442,10 +457,10 @@
                                     <h5 class="command__name">Иосиф Миневич</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Собирает из хаоса систему. Разложит бизнес процессы на винтики. Использует технику - понимаем идеальный результат, подробно расписываем путь.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Собирает из хаоса систему. Разложит бизнес процессы на винтики. Использует технику - понимаем идеальный результат, подробно расписываем путь.</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -454,10 +469,10 @@
                                     <h5 class="command__name">Никита Яковлев</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Магистр ютуба и гений видео продакшна. Вывел психолога из Сибирской деревни на 40 миллионов руб/мес. в продажах с ютуба. Режиссёр и продюсер крупнейшего вебинар канала России - Школа Тайны Жизни.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Магистр ютуба и гений видео продакшна. Вывел психолога из Сибирской деревни на 40 миллионов руб/мес. в продажах с ютуба. Режиссёр и продюсер крупнейшего вебинар канала России - Школа Тайны Жизни.</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -466,10 +481,10 @@
                                     <h5 class="command__name">Елена Ильичева</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Обеспечит технический комфорт команды и студентов. Воронки, эфиры, рассылки. Бесперебойная работа сервисов.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Обеспечит технический комфорт команды и студентов. Воронки, эфиры, рассылки. Бесперебойная работа сервисов.</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -478,10 +493,10 @@
                                     <h5 class="command__name">Мария Маклакова</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Поможет, подскажет, поддержит. Если вы заблудились - вернёт на верный путь. Если запутались - распутает. Обращаться по всем непонятным вопросам.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Поможет, подскажет, поддержит. Если вы заблудились - вернёт на верный путь. Если запутались - распутает. Обращаться по всем непонятным вопросам.</span>
+                                </div>
                             </div>
                             <div class="command__link">
                                 <div class="command__card">
@@ -490,10 +505,10 @@
                                     <h5 class="command__name">Елена Сергеева</h5>
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
-                            </div>
-                            <div class="command__about">
-                                <span class="command__aboutHead">Обо мне</span>
-                                <span class="command__aboutText">Мастер языка смыслов в текстах. Пишет как дышит.  Глаголом жжет и сердца, и умы людей. Тонко чувствует разницу между "жечь", "зажигать" и "выжигать". Выжиганию нет, огню идей - да.</span>
+                                <div class="command__about">
+                                    <span class="command__aboutHead">Обо мне</span>
+                                    <span class="command__aboutText">Мастер языка смыслов в текстах. Пишет как дышит.  Глаголом жжет и сердца, и умы людей. Тонко чувствует разницу между "жечь", "зажигать" и "выжигать". Выжиганию нет, огню идей - да.</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -654,7 +669,7 @@
                         </div>
                     </div>
                     <h4 class="round__text">Как <i class="round__text_blue">встроить прямо сейчас 3D-маркетинг</i> с многоуровневой монетизацией вашего продукта</h4>
-                    <a class="round__button">Жми и узнай подробнее</a>
+                    <a href="#" class="round__button">Жми и узнай подробнее</a>
                     <img src="images/round.png" class="round__img"/>
                 </div>
             </div>

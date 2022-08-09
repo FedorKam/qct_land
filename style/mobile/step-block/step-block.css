@@ -2,6 +2,7 @@
     margin-top: 40px;
     width: 343px;
     padding: 40px 16px 0px;
+    position: relative;
 }
 
 .step-block__head{
@@ -10,20 +11,41 @@
 }
 
 .step-block__list{
-    position: relative;
+    position: absolute;
     display: flex;
-    width: 100%;
+    width: 343px;
     height: 47px;
     margin-top: 50px;
     border: 1px solid #1A1A1A33;
     border-radius: 20px;
     align-content: center;
-    background: url('../../../images/header_arrow_menu.svg') no-repeat;
-    background-position: 95%;
+    line-height: 150%;
 }
 
-.step-block__list:hover .step-block__option{
-    color: #005FFF;
+.step-block__list_full{
+    display: block;
+    background: #F1F1F3;
+    border: 1px solid rgba(26, 26, 26, 0.2);
+    border-radius: 12px;
+    height: 359px;
+    z-index: 100;
+    overflow-y: scroll;
+}
+
+.step-block__list_full .step-block__option_active{
+    color:  #005FFF;
+}
+
+.step-block__listArrow{
+    display: block;
+    position: absolute;
+    top: 180px;
+    right: 32px;
+    z-index: 101;
+}
+
+.step-block__list_full+.step-block__listArrow{
+    transform: rotate(180deg);
 }
 
 .step-block__option
@@ -31,6 +53,17 @@
     width: 70%;
     display: none;
     border: none;
+    margin: 0;
+}
+
+.step-block__list_full .step-block__option{
+    display: block;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    width: calc(100% - 32px);
 }
 
 .step-block__option_active
@@ -41,7 +74,7 @@
 
 .step-block__step{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 130px;
 }
 
 .step-block__img{

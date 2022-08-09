@@ -3,6 +3,10 @@
     padding: 25px 0 40px;
 }
 
+.command__link{
+    cursor: pointer;
+}
+
 .command__content{
     margin: 0 auto;
 }
