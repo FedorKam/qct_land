@@ -11,6 +11,7 @@
     <script src="script/script_steps.js" defer></script>
     <script src="script/script_bali.js" defer></script>
     <script src="script/script_command.js" defer></script>
+    <script src="script/script_scroll-line.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
@@ -24,7 +25,7 @@
   <body>
     <div id="root">
         <div class="header__background"></div>
-        <ul class="menu menu_mob menu_showed">
+        <ul class="menu menu_mob">
             <a class="menu__link active" href="#"><li class="menu__item">Главная</li></a>
            <a class="menu__link" href="#step-block"><li class="menu__item">Твой путь</li></a>
            <a class="menu__link" href="#roadmap"><li class="menu__item">Roadmap</li></a>
@@ -55,7 +56,7 @@
                     </ul>
                 </ul>
                 <a class="menu__topButton">Купить QCT</a>
-                <a class="menu__button menu__button_close">
+                <a class="menu__button">
                     <div class="menu__line"></div>
                     <div class="menu__line"></div>
                     <div class="menu__line"></div>
@@ -362,7 +363,7 @@
                     </div>
                     <div class="command__scrollBlock">
                         <div class="command__scroll">
-                            <div class="command__link">
+                            <div class="command__link" card-num="1">
                                 <div class="command__card command__card_hidden">
                                     <img src="images/avatar_1.png" class="command__avatar" />
                                     <span class="command__position">Founder</span>
@@ -370,7 +371,7 @@
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="2">
                                 <div class="command__card command__card_hidden">
                                     <img src="images/avatar_2.png" class="command__avatar" />
                                     <span class="command__position">CEO</span>
@@ -378,7 +379,7 @@
                                     <a class="command__eye"><img src="images/eye.svg"/></a>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="3">
                                 <div class="command__card">
                                     <img src="images/avatar_3.png" class="command__avatar" />
                                     <span class="command__position">CTO</span>
@@ -390,7 +391,7 @@
                                     <span class="command__aboutText">У него все под контролем. Даже контроль под его контролем. Нет того, что он не знает. 100 процессов одновременно - не проблема.</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="4">
                                 <div class="command__card">
                                     <img src="images/avatar_4.png" class="command__avatar" />
                                     <span class="command__position">Sales</span>
@@ -402,7 +403,7 @@
                                     <span class="command__aboutText">Совершает продажи из и во имя любви. Мать 5-ых детей. Максимально развита 1 и 4 чакра. Лечит взглядом, продает сердцем.</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="5">
                                 <div class="command__card">
                                     <img src="images/avatar_5.png" class="command__avatar" />
                                     <span class="command__position">Product Manager</span>
@@ -414,7 +415,7 @@
                                     <span class="command__aboutText">Решит нерешаемую проблему. Найдет выход из безвыходной ситуации. Донесёт сложное простыми словами.</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="6">
                                 <div class="command__card">
                                     <img src="images/avatar_7.png" class="command__avatar" />
                                     <span class="command__position">Sales</span>
@@ -426,7 +427,7 @@
                                     <span class="command__aboutText">Продает через дизайн человека. Совершил сделку на 400 млн. руб. Имеет чёрный пояс по продажам. Знает секретный ключ к идеальным переговорам</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="7">
                                 <div class="command__card">
                                     <img src="images/avatar_8.png" class="command__avatar" />
                                     <span class="command__position">Архитектор</span>
@@ -438,7 +439,7 @@
                                     <span class="command__aboutText">Разрабатывает концептуальные идеи по объемно-планировочным решениям: пространства, города и зданий. Ежечасно следит за тенденциями и трендами метавселенных. Спец по составлению ТЗ.</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="8">
                                 <div class="command__card">
                                     <img src="images/avatar_9.png" class="command__avatar" />
                                     <span class="command__position">Системный продуктолог</span>
@@ -450,7 +451,7 @@
                                     <span class="command__aboutText">Помогает делать учебный процесс легким и эффективным. Структурирует задания, методические материалы и презентации для участников обучающих программ.</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="9">
                                 <div class="command__card">
                                     <img src="images/avatar_10.png" class="command__avatar" />
                                     <span class="command__position">Бизнес архитектор</span>
@@ -462,7 +463,7 @@
                                     <span class="command__aboutText">Собирает из хаоса систему. Разложит бизнес процессы на винтики. Использует технику - понимаем идеальный результат, подробно расписываем путь.</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="10">
                                 <div class="command__card">
                                     <img src="images/avatar_11.png" class="command__avatar" />
                                     <span class="command__position">Youtuber</span>
@@ -474,7 +475,7 @@
                                     <span class="command__aboutText">Магистр ютуба и гений видео продакшна. Вывел психолога из Сибирской деревни на 40 миллионов руб/мес. в продажах с ютуба. Режиссёр и продюсер крупнейшего вебинар канала России - Школа Тайны Жизни.</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="11">
                                 <div class="command__card">
                                     <img src="images/avatar_12.png" class="command__avatar" />
                                     <span class="command__position">Technical master</span>
@@ -486,7 +487,7 @@
                                     <span class="command__aboutText">Обеспечит технический комфорт команды и студентов. Воронки, эфиры, рассылки. Бесперебойная работа сервисов.</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="12">
                                 <div class="command__card">
                                     <img src="images/avatar_14.png" class="command__avatar" />
                                     <span class="command__position">Служба заботы</span>
@@ -498,7 +499,7 @@
                                     <span class="command__aboutText">Поможет, подскажет, поддержит. Если вы заблудились - вернёт на верный путь. Если запутались - распутает. Обращаться по всем непонятным вопросам.</span>
                                 </div>
                             </div>
-                            <div class="command__link">
+                            <div class="command__link" card-num="13">
                                 <div class="command__card">
                                     <img src="images/avatar_15.png" class="command__avatar" />
                                     <span class="command__position">Контент-Маркетолог</span>
@@ -513,16 +514,170 @@
                         </div>
                     </div>
                 </div>
-                <div class="command__backPopUp">
-                    <div class="command__popUp">
+            </div>
+            <div class="command__backPopUp">
+                <div class="command__popUp">
+                    <div class="command__popUpPersonBlock" card-num="1">
+                        <div class="command__card">
+                            <img src="images/avatar_1.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Founder</span>
+                            <h5 class="command__name command__name_popUp">Виталий Кузнецов</h5>
+                            
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Автор технологии продаж через ценности. Один из лучших бизнес-тренеров по запускам и продажам в СНГ. Создатель легендарного тренинга “Большие чеки”</span>
+                        </div>
                         <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
-                        <img src="images/avatar_1.png" class="command__avatar command__avatar_popUp">
-                        <span class="command__position command__position_popUp">Founder</span>
-                        <h5 class="command__name command__name_popUp">Дана Сераева</h5>
-                        <span class="command__aboutHead command__aboutHead_popUp">Обо мне</span>
-                        <span class="command__aboutText command__aboutText_popUp">Автор технологии продаж через ценности. Один из лучших бизнес-тренеров по запускам и продажам в СНГ. Создатель легендарного тренинга “Большие чеки”</span>
                     </div>
-                </div>
+                    <div class="command__popUpPersonBlock" card-num="2">
+                        <div class="command__card">
+                            <img src="images/avatar_2.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">CEO</span>
+                            <h5 class="command__name command__name_popUp">Алекс Санбаев</h5>
+                            
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Мастер по достижению максимального результата в минимальные сроки. Пока другие говорят, он уже запустил и протестировал. Знает все обо всех в компании.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="3">
+                        <div class="command__card">
+                            <img src="images/avatar_3.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">CTO</span>
+                            <h5 class="command__name command__name_popUp">Олег Куценко</h5>
+                            
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">У него все под контролем. Даже контроль под его контролем. Нет того, что он не знает. 100 процессов одновременно - не проблема.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="4">
+                        <div class="command__card">
+                            <img src="images/avatar_4.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Sales</span>
+                            <h5 class="command__name command__name_popUp">Дана Сераева</h5>
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Совершает продажи из и во имя любви. Мать 5-ых детей. Максимально развита 1 и 4 чакра. Лечит взглядом, продает сердцем.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="5">
+                        <div class="command__card">
+                            <img src="images/avatar_5.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Product Manager</span>
+                            <h5 class="command__name command__name_popUp">Евгений Кудрин</h5>
+                            
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Решит нерешаемую проблему. Найдет выход из безвыходной ситуации. Донесёт сложное простыми словами.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="6">
+                        <div class="command__card">
+                            <img src="images/avatar_7.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Sales</span>
+                            <h5 class="command__name command__name_popUp">Илья Мишенков</h5>
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Продает через дизайн человека. Совершил сделку на 400 млн. руб. Имеет чёрный пояс по продажам. Знает секретный ключ к идеальным переговорам</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="7">
+                        <div class="command__card">
+                            <img src="images/avatar_8.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Архитектор</span>
+                            <h5 class="command__name command__name_popUp">Соня Апакина</h5>
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Разрабатывает концептуальные идеи по объемно-планировочным решениям: пространства, города и зданий. Ежечасно следит за тенденциями и трендами метавселенных. Спец по составлению ТЗ.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="8">
+                        <div class="command__card">
+                            <img src="images/avatar_9.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Системный продуктолог</span>
+                            <h5 class="command__name command__name_popUp">Дмитрий Науменко</h5>
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Помогает делать учебный процесс легким и эффективным. Структурирует задания, методические материалы и презентации для участников обучающих программ.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="9">
+                        <div class="command__card">
+                            <img src="images/avatar_10.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Бизнес архитектор</span>
+                            <h5 class="command__name command__name_popUp">Иосиф Миневич</h5>
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Собирает из хаоса систему. Разложит бизнес процессы на винтики. Использует технику - понимаем идеальный результат, подробно расписываем путь.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="10">
+                        <div class="command__card">
+                            <img src="images/avatar_11.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Youtuber</span>
+                            <h5 class="command__name command__name_popUp">Никита Яковлев</h5>
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Магистр ютуба и гений видео продакшна. Вывел психолога из Сибирской деревни на 40 миллионов руб/мес. в продажах с ютуба. Режиссёр и продюсер крупнейшего вебинар канала России - Школа Тайны Жизни.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="11">
+                        <div class="command__card">
+                            <img src="images/avatar_12.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Technical master</span>
+                            <h5 class="command__name command__name_popUp">Елена Ильичева</h5>
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Обеспечит технический комфорт команды и студентов. Воронки, эфиры, рассылки. Бесперебойная работа сервисов.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="12">
+                        <div class="command__card">
+                            <img src="images/avatar_14.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Служба заботы</span>
+                            <h5 class="command__name command__name_popUp">Мария Маклакова</h5>
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Поможет, подскажет, поддержит. Если вы заблудились - вернёт на верный путь. Если запутались - распутает. Обращаться по всем непонятным вопросам.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    <div class="command__popUpPersonBlock" card-num="13">
+                        <div class="command__card">
+                            <img src="images/avatar_15.png" class="command__avatar command__avatar_popUp" />
+                            <span class="command__position command__position_popUp">Контент-Маркетолог</span>
+                            <h5 class="command__name command__name_popUp">Елена Сергеева</h5>
+                        </div>
+                        <div class="command__about command__about_mob">
+                            <span class="command__aboutHead">Обо мне</span>
+                            <span class="command__aboutText">Мастер языка смыслов в текстах. Пишет как дышит.  Глаголом жжет и сердца, и умы людей. Тонко чувствует разницу между "жечь", "зажигать" и "выжигать". Выжиганию нет, огню идей - да.</span>
+                        </div>
+                        <a class="command__popUpClose"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.87937 5.99925L0.439875 2.55975C-0.146625 1.97475 -0.146625 1.02375 0.439875 0.43875C1.02487 -0.14625 1.97588 -0.14625 2.56087 0.43875L6.00037 3.87825L9.43987 0.43875C10.0249 -0.14625 10.9759 -0.14625 11.5609 0.43875C12.1459 1.02375 12.1459 1.97475 11.5609 2.55975L8.12138 5.99925L11.5609 9.43875C12.1459 10.0238 12.1459 10.9748 11.5609 11.5597C10.9759 12.1447 10.0249 12.1447 9.43987 11.5597L6.00037 8.12025L2.56087 11.5597C1.97588 12.1447 1.02487 12.1447 0.439875 11.5597C-0.146625 10.9748 -0.146625 10.0238 0.439875 9.43875L3.87937 5.99925Z" fill="white"/></svg></a>
+                    </div>
+                    </div>
             </div>
             <div id="tech" class="tech">
                 <h2 class="tech__head">Технологии,<br/>которые мы используем</h2>
