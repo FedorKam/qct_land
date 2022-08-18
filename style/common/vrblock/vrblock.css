@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+.vrblock.vrblock_wide{
+    padding-bottom: 200px;
+}
+
 .vrblock__head{
     font-family: 'Rubik';
     font-weight: 700;
