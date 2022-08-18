@@ -39,7 +39,7 @@
 .step-block__listArrow{
     display: block;
     position: absolute;
-    top: 180px;
+    top: 190px;
     right: 32px;
     z-index: 101;
 }

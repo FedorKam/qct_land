@@ -1,6 +1,5 @@
 .scroll-line{
     display: flex;
-    overflow: hidden;
 }
 
 .scroll-line__bar{
@@ -12,15 +11,10 @@
 }
 
 .scroll-line__item{
+    position: -webkit-sticky;
+    position: sticky;
     margin-right: 0;
     padding: 35px 30px;
-    position: absolute;
     top: 0;
-    left: 50%;
-    transform: translate(-50%,0);
-}
-
-.scroll-line__bar{
-    position: relative;
-    height: 300px;
+    margin-top: -15px;
 }

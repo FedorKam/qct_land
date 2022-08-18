@@ -12,6 +12,23 @@ span{
     padding-top: 50px;
 }
 
+.second-part-blocks{
+    animation: block_appear 0.2s linear;
+}
+
+@keyframes block_appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.second-part-blocks.second-part-blocks_hidden{
+    display: none;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;

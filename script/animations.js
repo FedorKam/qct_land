@@ -42,28 +42,36 @@
     observer.observe(block);
 })();
 
-// (function () {
-//     let block = document.querySelector('.values');
-//     let body = document.querySelector('body');
+(function () {
+    let is_showed = false;
+    let block = document.querySelector('.values');
   
-//     let observer = new IntersectionObserver(entries => {
-//       entries.forEach(entry => {
-//         if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
-//           return;
-//         }
+    let observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
 
-//         if (entry.isIntersecting) {
-//           body.style.overflow = 'hidden';
-//           return;
-//         }
+        let vrblock = document.querySelector('.vrblock');
+        let vrblock__img = document.querySelector('.vrblock__img');
+        let blocks_second_part = document.querySelector('.second-part-blocks');
 
-//         body.style.overflow = 'scroll';
-//         window.addEventListener('scroll', function(event) {
-//           let vrImg = document.querySelector('.vrblock__img');
-//           vrImg.style.width = '1000px';
-//         });
-//       });
-//     });
+        if (entry.isIntersecting && !is_showed) {
+          blocks_second_part.classList.add('second-part-blocks_hidden');
+          vrblock__img.classList.add('vrblock__img_animated');
+
+          setTimeout(function(){
+            vrblock__img.classList.remove('vrblock__img_animated');
+            blocks_second_part.classList.remove('second-part-blocks_hidden');
+
+            blocks_second_part.scrollIntoView(top);
+            blocks_second_part.classList.add('second-part-blocks_hidden_appear');
+        }, 950);
+          is_showed = true;
+          return;
+        }
+      });
+    });
   
-//     observer.observe(block);
-// })();
+    observer.observe(block);
+})();

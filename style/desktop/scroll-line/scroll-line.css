@@ -8,3 +8,7 @@
     height: 244px;
     margin-left: 8%;
 }
+
+.scroll-line__item{
+    box-shadow: 0px 10px 20px rgb(17 46 99 / 10%);
+}

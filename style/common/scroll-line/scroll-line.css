@@ -5,7 +5,6 @@
 .scroll-line__item{
     position: relative;
     background: linear-gradient(124.69deg, #FFFFFF 21.38%, #E8EAEF 96.34%);
-    box-shadow: 0px 10px 20px rgb(17 46 99 / 10%);
     border-radius: 32px;
     display: inline-block;
     margin-right: 30px;

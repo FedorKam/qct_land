@@ -49,6 +49,7 @@
     width: 100%;
     background: #282828;
     position: relative;
+    font-family: 'Consolas';
 }
 
 .tech__lineNumb{
@@ -56,14 +57,12 @@
     width: 18px;
     top: 30px;
     left: 24px;
-    font-family: 'Consolas';
     font-weight: 400;
     font-size: 16px;
     color: rgba(186, 196, 205, 0.5);
 }
 
 .tech__consoleText{
-    font-family: 'Consolas';
     font-weight: 400;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.6);
@@ -80,8 +79,8 @@
 .tech__consoleText_margin{
     display: block;
     margin-left: 32px;
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 10px;
+    margin-bottom: 11px;
 }
 
 .tech__consoleText_blue{
