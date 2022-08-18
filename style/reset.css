@@ -10,3 +10,8 @@
     font: inherit;
     vertical-align: baseline;
 }
+
+.land-html, .land-head, .land-body{
+    margin: 0;
+    padding: 0;
+}
