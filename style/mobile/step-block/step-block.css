@@ -91,14 +91,14 @@
     display: none;
 }
 
-.step-block__text{
-    display: none;
-}
-
-.step-block__text_mob{
-    display: inline-block;
-}
-
 .step-block__nav{
     margin-top: 30px;
+}
+
+.step-block__option_mob{
+    display: block;
+}
+
+.step-block__option_desk{
+    display: none;
 }

@@ -24,10 +24,6 @@
     margin-top: 246px;
 }
 
-.step-block__text_mob{
-    display: none;
-}
-
 .step-block__img{
     position: absolute;
     right: 0;
@@ -44,4 +40,12 @@
 
 .step-block__text{
     margin-top: 20px;
+}
+
+.step-block__option_mob{
+    display: block;
+}
+
+.step-block__option_desk{
+    display: none;
 }

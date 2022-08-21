@@ -1,4 +1,4 @@
-.header__background *, .menu *, .header *, .scroll-line *, .steps *, .roadmap *, .dblock *, .vrblock *, .values *, .bali *, .virtualWorld *, .command *, .command__backPopUp *, .tech *, .job *, .partner *, .round *{
+.header__background *, .menu *, .header *, .scroll-line *, .steps *, .roadmap *, .dblock *, .vrblock *, .values *, .bali *, .virtualWorld *, .command *, .command__backPopUp *, .tech *, .job *, .partner *, .round *, .menu{
     padding: 0;
     margin: 0;
     border: 0;
@@ -9,6 +9,10 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+}
+
+.header__background, .header, .steps, .roadmap, .dblock, .vrblock, .values, .bali, .virtualWorld, .command, .command__backPopUp, .tech, .partner, .round{
+    overflow-x: hidden;
 }
 
 .land-html, .land-head, .land-body{

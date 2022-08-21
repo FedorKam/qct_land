@@ -117,6 +117,15 @@
     display: block;
 }
 
+.command__popUp{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 106;
+}
+
 .command__popUpPersonBlock{
     display: none;
     width: 311px;
@@ -145,7 +154,7 @@
 }
 
 .command__name_popUp{
-    top: 24px;
+    top: -15px;
     left: 108.5px;
     color: #478BFD;
 }

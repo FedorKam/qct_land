@@ -9,7 +9,7 @@
 
 .step-block__list{
     float: right;
-    width: 855px;
+    width: 890px;
     height: 147px;
     justify-content: flex-end;
 }
@@ -30,10 +30,6 @@
     width: 374px;
 }
 
-.step-block__text_mob{
-    display: none;
-}
-
 .step-block__name{
     margin-bottom: 40px;
 }
@@ -44,4 +40,12 @@
 
 .step-block__listArrow{
     display: none;
+}
+
+.step-block__option_mob{
+    display: none;
+}
+
+.step-block__option_desk{
+    display: block;
 }

@@ -26,6 +26,7 @@
     background: #1A1A1A;
     border-radius: 32px;
     height: 141px;
+    cursor: pointer;
 }
 
 .partner__pocket_white{
@@ -113,4 +114,323 @@
 
 .partner__week_blue{
     color: #478BFD;
+}
+
+.partner__pocketBlockBack{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    z-index: 102;
+    display: none;
+}
+
+.partner__pocketBlockBack.partner__pocketBlockBack_visible{
+    display: block;
+}
+
+.partner__pocketBlock{
+    position: absolute;
+    z-index: 103;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.partner__popUp{
+    position: relative;
+    height: 100%;
+}
+
+.partner__pocketBlockContent{
+    position: relative;
+    border-radius: 36px;
+    border: 1px solid;
+    overflow-x: hidden;
+}
+
+.partner__pocketBlockContent_white{
+    background: #F1F1F3;
+    border-color: #F1F1F3;
+}
+
+.partner__pocketBlockContent_blue, .partner__pocketBlockContent_yellow{
+    background: #0E0E0E;
+}
+
+.partner__pocketBlockContent_blue{
+    border-color: #478BFD;
+}
+
+.partner__pocketBlockContent_yellow{
+    border-color: #E0B371;
+}
+
+.partner__pocketAbout{
+    display: none;
+}
+
+.partner__pocketAbout.active{
+    display: block;
+}
+
+.partner__pocketBlockText{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.partner__pocketBlockContent_white .partner__pocketBlockText{
+    color: #2C2D2E;
+}
+
+.partner__pocketBlockContent_blue .partner__pocketBlockText, .partner__pocketBlockContent_yellow .partner__pocketBlockText{
+    color: #FFF;
+    opacity: 0.5;
+}
+
+.partner__nav{
+    position: absolute;
+    display: flex;
+}
+
+.partner__nav-number{
+    display: inline-flex;
+    width: 83px;
+    align-items: center;
+}
+
+.partner__nav-curr{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.partner__pocketBlockContent_white .partner__nav-curr, .partner__pocketBlockContent_blue .partner__nav-curr{
+    color: #005FFF;
+}
+
+.partner__pocketBlockContent_yellow .partner__nav-curr{
+    color: #E0B371;
+}
+
+.partner__nav-stick{
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 38px;
+}
+
+.partner__nav-max{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.partner__pocketBlockContent_white .partner__nav-stick, .partner__pocketBlockContent_white .partner__nav-max{
+    color: #2C2D2E;
+    opacity: 0.2;
+}
+
+.partner__pocketBlockContent_blue .partner__nav-stick, .partner__pocketBlockContent_blue .partner__nav-max{
+    color: #FFFFFF;
+    opacity: 0.2;
+}
+
+.partner__pocketBlockContent_yellow .partner__nav-stick, .partner__pocketBlockContent_yellow .partner__nav-max{
+    color: #FFFFFF;
+    opacity: 0.2;
+}
+
+.partner__arrow-left, .partner__arrow-right{
+    height: 38px;
+    width: 38px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-left: 8px;
+    display: inline-flex;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner__arrow-left{
+    transform: rotate(180deg);
+}
+
+.partner__pocketBlockContent_white .partner__arrow-left{
+    border-color: #1a1a1a;
+    fill: #1a1a1a;
+    opacity: 0.2;
+}
+
+.partner__pocketBlockContent_white .partner__arrow-right, .partner__pocketBlockContent_blue .partner__arrow-left, .partner__pocketBlockContent_blue .partner__arrow-right{
+    border-color: #005FFF;
+    fill: #005FFF;
+}
+
+.partner__pocketBlockContent_yellow .partner__arrow-right{
+    border-color: #FFFFFF;
+    fill: #FFFFFF;
+    opacity: 0.2;
+}
+
+.partner__pocketBlockContent_yellow .partner__arrow-left{
+    border-color: #E0B371;
+    fill: #E0B371;
+}
+
+.partner__input{
+    padding: 15px 16px;
+    border: 1px solid;
+    border-radius: 16px;
+    margin-top: 16px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    color:#98A7B4;
+}
+
+.partner__pocketBlockContent_white .partner__input{
+    background: #FFFFFF;
+    border-color: #DEE6F3;
+}
+
+.partner__pocketBlockContent_blue .partner__input, .partner__pocketBlockContent_yellow .partner__input{
+    background: #1A1A1A;
+    border-color: #333333;
+}
+
+.partner__pocketBlockContent_white .partner__formBlock{
+    background: #FFFFFF;
+}
+
+.partner__pocketBlockContent_blue .partner__formBlock, .partner__pocketBlockContent_yellow .partner__formBlock{
+    background: #1A1A1A;
+}
+
+.partner__button{
+    font-family: 'TT Norms';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 0;
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+.partner__pocketBlockContent_white .partner__button{
+    border-color: #2C2D2E;
+    color: #2C2D2E;
+}
+
+.partner__pocketBlockContent_blue .partner__button{
+    border-color: #478BFD;
+    background-color: #478BFD;
+    color: #FFFFFF;
+}
+
+.partner__pocketBlockContent_yellow .partner__button{
+    border-color: #E0B371;
+    background-color: #E0B371;
+    color: #0E0E0E;
+}
+
+.partner__pocketAboutName{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.partner__pocketBlockContent_white .partner__pocketAboutName{
+    color: #2C2D2E;
+}
+
+.partner__pocketBlockContent_blue .partner__pocketAboutName{
+    color: #478BFD;
+}
+
+.partner__pocketBlockContent_yellow .partner__pocketAboutName{
+    color: #E0B371;
+}
+
+.partner__pocketAboutItem{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #2C2D2E;
+    display: block;
+    margin-top: 20px;
+}
+
+.partner__pocketBlockContent_white .partner__pocketAboutItem{
+    color: #2C2D2E;
+}
+
+.partner__pocketBlockContent_blue .partner__pocketAboutItem, .partner__pocketBlockContent_yellow .partner__pocketAboutItem{
+    color: #FFFFFF;
+}
+
+.partner__pocketAboutItem::before{
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.partner__pocketBlockContent_white .partner__pocketAboutItem::before{
+    color: #2C2D2E;
+}
+
+.partner__pocketBlockContent_blue .partner__pocketAboutItem::before{
+    color: #478BFD;
+}
+
+.partner__pocketBlockContent_yellow .partner__pocketAboutItem::before{
+    color: #E0B371
+}
+
+.partner__pocketAboutValue{
+    position: absolute;
+}
+
+.partner__pocketAboutNum{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    display: inline-block;
+}
+
+.partner__pocketBlockContent_white .partner__pocketAboutNum{
+    color: #2C2D2E;
+}
+
+.partner__pocketBlockContent_blue .partner__pocketAboutNum, .partner__pocketBlockContent_yellow .partner__pocketAboutNum{
+    color: #FFFFFF;
+}
+
+.partner__pocketAboutLogo{
+    margin-left: 9px;
+}
+
+.partner__pocketBlockContent_white .partner__pocketAboutLogo{
+    fill: #2C2D2E;
+}
+
+.partner__pocketBlockContent_blue .partner__pocketAboutLogo, .partner__pocketBlockContent_yellow .partner__pocketAboutLogo{
+    fill: #FFFFFF;
+}
+
+.partner__pocketBlockPrice{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    color: #98A7B4;
 }

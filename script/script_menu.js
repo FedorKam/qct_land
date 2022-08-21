@@ -10,7 +10,7 @@ let list__arrow = document.querySelector('.step-block__listArrow');
 let step_list = document.querySelector('.step-block__list');
 list__arrow.onclick = function(event) { step_list.classList.toggle('step-block__list_full'); };
 
-if(document.body.clientWidth <= '375')
+if(document.body.clientWidth <= '1023')
 {
     let step_option_mob = document.querySelectorAll('.step-block__option');
     step_option_mob.forEach(item => {

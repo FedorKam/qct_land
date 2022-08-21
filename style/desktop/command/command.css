@@ -138,3 +138,7 @@
 .command__backPopUp{
     display: none;
 }
+
+.command__popUp{
+    display: none;
+}

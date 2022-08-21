@@ -91,3 +91,84 @@
 .partner__week_blue{
     display: block;
 }
+
+.partner__pocketBlock{
+    width: 1275px;
+}
+
+.partner__popUp{
+    min-height: 680px;
+}
+
+.partner__pocketBlockContent{
+    padding: 100px 140px;
+}
+
+.partner__pocketBlockText{
+    top: 55px;
+}
+
+.partner__nav{
+    top: 47px;
+    right: 144px;
+}
+
+.partner__pocketAboutList{
+    margin: 28px 0 30px;
+    margin-left: 17px;
+    min-height: 200px;
+}
+
+.partner__pocketAboutList_maxHeight{
+    min-height: 220px;
+}
+
+.partner__pocketAboutListRight, .partner__pocketAboutListLeft{
+    width: 463px;
+    display: inline-block;
+}
+
+.partner__pocketAboutListRight{
+    float: right;
+}
+
+.partner__pocketAboutListLeft .partner__pocketAboutItem{
+    width: 400px;
+}
+
+.partner__pocketAboutValue{
+    bottom: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.partner__pocketBlockPrice{
+    margin-left: 20px;
+}
+
+.partner__formBlock{
+    width: calc(100% + 280px);
+    margin-left: -140px;
+    height: 84px;
+    display: none;
+}
+
+.partner__formBlock.active{
+    display: block;
+}
+
+.partner__form{
+    margin-left: 120px;
+}
+
+.partner__input{
+    width: 450px;
+    margin-left: 20px;
+}
+
+.partner__button{
+    position: absolute;
+    bottom: 32px;
+    right: 140px;
+    width: 484px;
+}

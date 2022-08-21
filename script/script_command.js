@@ -14,19 +14,10 @@ if(document.body.clientWidth <= '1438')
         })
     });
 
-    command__backPopUp.onclick = function (e) {
-        if (e.target.className != "command__popUpPersonBlock active" 
-        && e.target.className != "command__card" 
-        && e.target.className != "command__avatar command__avatar_popUp"
-        && e.target.className != "command__position command__position_popUp"
-        && e.target.className != "command__name command__name_popUp"
-        && e.target.className != "command__about command__about_mob"
-        && e.target.className != "command__aboutHead"
-        && e.target.className != "command__aboutText") {
-            command__backPopUp.classList.remove('command__backPopUp_visible');
-            let command__popUpPersonBlock_active = document.querySelector('.command__popUpPersonBlock.active'); 
-            command__popUpPersonBlock_active.classList.remove('active');
-         };
+    command__backPopUp.onclick = function () {
+        command__backPopUp.classList.remove('command__backPopUp_visible');
+        let command__popUpPersonBlock_active = document.querySelector('.command__popUpPersonBlock.active'); 
+        command__popUpPersonBlock_active.classList.remove('active');
     };
 }
 else

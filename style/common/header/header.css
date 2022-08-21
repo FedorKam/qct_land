@@ -26,6 +26,14 @@
     color: #005FFF;
 }
 
+.active .menu__item:hover{
+    color: #fff;
+}
+
+.menu__button{
+    cursor: pointer;
+}
+
 .header__h1{
     font-family: 'Rubik';
     font-style: normal;
@@ -61,6 +69,7 @@
     background: #005FFF;
     border-radius: 40px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .header__button_text{

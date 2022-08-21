@@ -72,3 +72,74 @@
 .partner__week_desktop{
     display: none;
 }
+
+.partner__pocketBlock{
+    width: 375px;
+}
+
+.partner__popUp{
+    min-height: 1200px;
+}
+
+.partner__pocketBlockContent{
+    padding: 115px 16px;
+    padding-bottom: 0;
+}
+
+.partner__pocketBlockText{
+    top: 55px;
+}
+
+.partner__pocketAboutName{
+    font-size: 26px;
+}
+
+.partner__nav{
+    top: 49px;
+    right: 25px;
+}
+
+.partner__pocketAboutList{
+    margin: 125px 0 27px;
+    margin-left: 17px;
+}
+
+.partner__pocketAboutValue{
+    top: 179px;
+}
+
+.partner__pocketBlockPrice{
+    margin-top: 12px;
+    display: block;
+}
+
+.partner__formBlock{
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    height: 240px;
+    display: none;
+}
+
+.partner__formBlock.active{
+    display: block;
+}
+
+.partner__form{
+    margin-left: 16px;
+}
+
+.partner__input{
+    width: 307px;
+    margin-left: 0px;
+}
+
+.partner__button{
+    position: absolute;
+    bottom: 32px;
+    left: 16px;
+    width: 343px;
+}
+
+.partner__pocketBlockContent_white .partner__button{
+    background: #FFFFFF;
+}

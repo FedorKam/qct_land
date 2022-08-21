@@ -64,7 +64,6 @@
 .job__scrollBlock{
     margin-top: 70px;
     overflow: hidden;
-    z-index: 1000;
 }
 
 .job__scroll{
