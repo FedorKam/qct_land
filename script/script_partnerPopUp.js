@@ -50,14 +50,21 @@ partner__arrow_left.addEventListener('click', event => {
     }
 });
 
-let partner__button = document.querySelector('.partner__button');
+if(window.clienWidth <= "1022"){
+    let partner__button = document.querySelector('.partner__button');
 
-partner__button.addEventListener('click', event => {
-    let partner__formBlock = document.querySelector('.partner__formBlock');
-    partner__formBlock.classList.add('active');
+    partner__button.addEventListener('click', event => {
+        let partner__formBlock = document.querySelector('.partner__formBlock');
+        partner__formBlock.classList.add('active');
 
-    setTimeout(function(){partner__button.setAttribute('type', 'submit');}, 200);
-});
+        setTimeout(function(){partner__button.setAttribute('type', 'submit');}, 200);
+    });
+}
+else
+{
+    let partner__button = document.querySelector('.partner__button');
+    partner__button.setAttribute('type', 'submit');
+}
 
 function refresh_num(num){
     let partner__curr = document.querySelector('.partner__nav-curr');

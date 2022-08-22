@@ -3,6 +3,7 @@ let command__links = document.querySelectorAll('.command__link');
 if(document.body.clientWidth <= '1438')
 {
     let command__backPopUp = document.querySelector('.command__backPopUp');
+    let command__popUpClose = document.querySelectorAll('.command__popUpClose');
 
     command__links.forEach(item => {
         item.addEventListener('click', event => {
@@ -14,11 +15,16 @@ if(document.body.clientWidth <= '1438')
         })
     });
 
-    command__backPopUp.onclick = function () {
+    command__backPopUp.onclick = hide_popUp;
+    command__popUpClose.forEach(item => {
+        item.onclick = hide_popUp;
+    });
+
+    function hide_popUp(){
         command__backPopUp.classList.remove('command__backPopUp_visible');
         let command__popUpPersonBlock_active = document.querySelector('.command__popUpPersonBlock.active'); 
         command__popUpPersonBlock_active.classList.remove('active');
-    };
+    }
 }
 else
 {

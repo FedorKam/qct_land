@@ -50,7 +50,7 @@
 
 .step-block__option
 {
-    width: 70%;
+    width: 80%;
     display: none;
     border: none;
     margin: 0;
@@ -74,7 +74,7 @@
 
 .step-block__step{
     width: 100%;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .step-block__img{
@@ -85,6 +85,11 @@
 
 .step-block__text-block{
     width: 100%;
+}
+
+.step-block__text{
+    display: block;
+    margin-top: 15px;
 }
 
 .step-block__name{

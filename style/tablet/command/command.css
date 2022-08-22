@@ -151,12 +151,14 @@
 .command__position_popUp{
     top: 0;
     left: 108.5px;
+    width: 180px;
 }
 
 .command__name_popUp{
-    top: -15px;
+    top: 24px;
     left: 108.5px;
     color: #478BFD;
+    font-size: 28px;
 }
 
 .command__about_mob{
@@ -172,4 +174,5 @@
     position: absolute;
     top: 16px;
     right: 16px;
+    cursor: pointer;
 }

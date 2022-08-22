@@ -185,6 +185,11 @@
     position: absolute;
 }
 
+.partner__pocketAboutList{
+    margin: 0;
+    padding: 0;
+}
+
 .partner__pocketBlockContent_white .partner__pocketBlockText{
     color: #2C2D2E;
 }

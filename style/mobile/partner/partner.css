@@ -120,7 +120,7 @@
     display: none;
 }
 
-.partner__formBlock.active{
+.partner__formBlock{
     display: block;
 }
 

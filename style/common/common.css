@@ -1,8 +1,8 @@
-body{
+.landing_root{
     background-color: #E7E7E9;
 }
 
-span{
+.landing_root span{
     letter-spacing: 0.003em;
 }
 
@@ -29,12 +29,12 @@ span{
     display: none;
 }
 
-::-webkit-scrollbar {
+.landing_root *::-webkit-scrollbar {
     width: 0px;
     height: 0px;
 }
 
-::-webkit-scrollbar-thumb {
+.landing_root *::-webkit-scrollbar-thumb {
     background-color: #23232321;
     border-radius: 50px;
 }
